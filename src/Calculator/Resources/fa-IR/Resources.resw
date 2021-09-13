@@ -481,18 +481,6 @@
     <value>استاندارد</value>
     <comment>Label for a control that activates standard mode calculator layout.</comment>
   </data>
-  <data name="converterModeButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>حالت مبدل</value>
-    <comment>Screen reader prompt for a control that activates the unit converter mode.</comment>
-  </data>
-  <data name="scientificModeButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>حالت علمی</value>
-    <comment>Screen reader prompt for a control that activates scientific mode calculator layout</comment>
-  </data>
-  <data name="standardModeButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>حالت استاندارد</value>
-    <comment>Screen reader prompt for a control that activates standard mode calculator layout.</comment>
-  </data>
   <data name="ClearHistory.Name" xml:space="preserve">
     <value>پاک کردن کل تاریخچه</value>
     <comment>"ClearHistory" used on the calculator history pane that stores the calculation history.</comment>
@@ -593,10 +581,6 @@
     <value>تاریخچه پاک شد</value>
     <comment>Screen reader prompt for the Calculator History Clear button, when the button is invoked.</comment>
   </data>
-  <data name="HideHistory.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>پنهان کردن پیشینه</value>
-    <comment>Screen reader prompt for the Calculator History Hide button</comment>
-  </data>
   <data name="HistoryButton_Open" xml:space="preserve">
     <value>باز کردن تاریخچه حاشیه‌ای</value>
     <comment>Screen reader prompt for the Calculator History button, when the flyout is closed.</comment>
@@ -604,10 +588,6 @@
   <data name="HistoryButton_Close" xml:space="preserve">
     <value>بستن منوی شناور تاریخچه</value>
     <comment>Screen reader prompt for the Calculator History button, when the flyout is open.</comment>
-  </data>
-  <data name="memButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>ذخیره حافظه</value>
-    <comment>Screen reader prompt for the Calculator Memory button</comment>
   </data>
   <data name="memButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
     <value>ذخیره حافظه (Ctrl+M)</value>
@@ -621,25 +601,13 @@
     <value>حافظه پاک شد</value>
     <comment>Screen reader prompt for the Calculator Clear Memory button, when the button is invoked.</comment>
   </data>
-  <data name="MemRecall.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>یادآوری حافظه</value>
-    <comment>Screen reader prompt for the Calculator Memory Recall button</comment>
-  </data>
   <data name="MemRecall.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
     <value>فراخوانی حافظه (Ctrl+R)</value>
     <comment>This is the tool tip automation name for the Memory Recall (MR) button.</comment>
   </data>
-  <data name="MemPlus.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>افزودن حافظه</value>
-    <comment>Screen reader prompt for the Calculator Memory Add button</comment>
-  </data>
   <data name="MemPlus.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
     <value>افزودن حافظه (Ctrl+P)</value>
     <comment>This is the tool tip automation name for the Memory Add (M+) button.</comment>
-  </data>
-  <data name="MemMinus.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>کاهش حافظه</value>
-    <comment>Screen reader prompt for the Calculator Memory Subtract button</comment>
   </data>
   <data name="MemMinus.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
     <value>کاهش دادن حافظه (Ctrl+Q)</value>
@@ -845,10 +813,6 @@
     <value>صفحه کلید کامل</value>
     <comment>Screen reader prompt for the Calculator numberPad button</comment>
   </data>
-  <data name="decimalSeparatorButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>جداکننده اعشار</value>
-    <comment>Screen reader prompt for the "." button</comment>
-  </data>
   <data name="clearEntryButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>پاک کردن ورودی</value>
     <comment>Screen reader prompt for the "CE" button</comment>
@@ -869,10 +833,6 @@
     <value>مساوی است با</value>
     <comment>Screen reader prompt for the equals button on the scientific operator keypad</comment>
   </data>
-  <data name="shiftButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>معکوس کردن عملکرد</value>
-    <comment>Screen Reader prompt for the shift button on the number pad in scientific mode.</comment>
-  </data>
   <data name="minusButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>منهای</value>
     <comment>Screen reader prompt for the minus button on the number pad</comment>
@@ -892,14 +852,6 @@
   <data name="percentButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>درصد</value>
     <comment>Screen reader prompt for the percent button on the scientific operator keypad</comment>
-  </data>
-  <data name="negateButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>منفی مثبت</value>
-    <comment>Screen reader prompt for the negate button on the scientific operator keypad</comment>
-  </data>
-  <data name="converterNegateButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>منفی مثبت</value>
-    <comment>Screen reader prompt for the negate button on the converter operator keypad</comment>
   </data>
   <data name="invertButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>معکوس</value>
@@ -948,18 +900,6 @@
   <data name="tanButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>تانژانت</value>
     <comment>Screen reader prompt for the Calculator tan button  on the scientific operator keypad</comment>
-  </data>
-  <data name="sinhButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>سینوس هیپربولیک</value>
-    <comment>Screen reader prompt for the Calculator sinh button  on the scientific operator keypad</comment>
-  </data>
-  <data name="coshButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>کسینوس هیپربولیک</value>
-    <comment>Screen reader prompt for the Calculator cosh button  on the scientific operator keypad</comment>
-  </data>
-  <data name="tanhButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>تانژانت هیپربولیک</value>
-    <comment>Screen reader prompt for the Calculator tanh button  on the scientific operator keypad</comment>
   </data>
   <data name="xpower2Button.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>مربع</value>
@@ -1025,10 +965,6 @@
     <value>توان</value>
     <comment>Screen reader for the exp button on the scientific operator keypad</comment>
   </data>
-  <data name="dmsButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>درجه دقیقه ثانیه</value>
-    <comment>Screen reader for the exp button on the scientific operator keypad</comment>
-  </data>
   <data name="degreesButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>درجه</value>
     <comment>Screen reader for the exp button on the scientific operator keypad</comment>
@@ -1056,14 +992,6 @@
   <data name="radButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>تغییر رادیان</value>
     <comment>This is the Deg button's Rad mode automation name on the scientific operator keypad. Should read as "Radians toggle button".</comment>
-  </data>
-  <data name="FlyoutNav.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>منوی کشویی حالت</value>
-    <comment>Screen reader prompt for the Mode dropdown field in Snapped and Portrait modes.</comment>
-  </data>
-  <data name="Categories.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>فهرست کشویی دسته‌ها</value>
-    <comment>Screen reader prompt for the Categories dropdown field.</comment>
   </data>
   <data name="EnterAlwaysOnTopButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>نگه داشتن در بالا</value>
@@ -1140,10 +1068,6 @@
   <data name="CategoryName_TemperatureText" xml:space="preserve">
     <value>دما</value>
     <comment>Unit conversion category name called Temperature</comment>
-  </data>
-  <data name="CategoryName_WeightText" xml:space="preserve">
-    <value>وزن و جرم</value>
-    <comment>Unit conversion category name called Weight and Mass. Note that this category includes units of both mass and weight. People use the word "weight" in everyday life for measuring things such as food and people. In case a language has same word for "weight" and "mass" please use one word only.</comment>
   </data>
   <data name="CategoryName_PressureText" xml:space="preserve">
     <value>فشار</value>
@@ -1837,10 +1761,6 @@
     <value>نانومتر</value>
     <comment>A measurement unit for length. (Please choose the most appropriate plural form to fit any number between 0 and 999,999,999,999,999)</comment>
   </data>
-  <data name="UnitName_NauticalMile" xml:space="preserve">
-    <value>مایل دریایی</value>
-    <comment>A measurement unit for length. (Please choose the most appropriate plural form to fit any number between 0 and 999,999,999,999,999)</comment>
-  </data>
   <data name="UnitName_Petabit" xml:space="preserve">
     <value>پتابیت</value>
     <comment>A measurement unit for data. (Please choose the most appropriate plural form to fit any number between 0 and 999,999,999,999,999)</comment>
@@ -2285,10 +2205,6 @@
     <value>توپ فوتبال</value>
     <comment>A soccer ball, used as a comparison measurement unit for weight. (Please choose the most appropriate plural form to fit any number between 0 and 999,999,999,999,999)</comment>
   </data>
-  <data name="MemoryItemHelpText" xml:space="preserve">
-    <value>مورد حافظه</value>
-    <comment>Help text used by accessibility tools to indicate that an item in the list of memory values is a memory item.</comment>
-  </data>
   <data name="SupplementaryUnit_AutomationName" xml:space="preserve">
     <value>%1 %2</value>
     <comment>This string is what is read by Narrator, and other screen readers, for the supplementary value at the bottom of the converter view, %1 = the value of the supplementary unit (i.e. 0.5), %2 = the unit itself (i.e. inches, meters, etc)</comment>
@@ -2433,12 +2349,9 @@
     <value>یوبی‌بایت</value>
     <comment>A measurement unit for data. (Please choose the most appropriate plural form to fit any number between 0 and 999,999,999,999,999)</comment>
   </data>
-  <data name="DateCalculationModeText" xml:space="preserve">
-    <value>محاسبه تاریخ</value>
-  </data>
   <data name="DateCalculationOption.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>حالت محاسبه</value>
-    <comment>Automation label for the Date Calculation Mode combobox. Users will hear "Calculation mode combobox".</comment>
+    <comment>Automation label for the Date calculation Mode combobox. Users will hear "Calculation mode combobox".</comment>
   </data>
   <data name="AddOption.Content" xml:space="preserve">
     <value>افزودن</value>
@@ -2454,7 +2367,7 @@
   </data>
   <data name="Date_DifferenceOption.Content" xml:space="preserve">
     <value>تفاوت بین تاریخ‌ها</value>
-    <comment>Date Difference option</comment>
+    <comment>Date difference option</comment>
   </data>
   <data name="DaysLabel.Text" xml:space="preserve">
     <value>روز</value>
@@ -2529,11 +2442,7 @@
   </data>
   <data name="HeaderAutomationName_Converter" xml:space="preserve">
     <value>%1 حالت مبدل</value>
-    <comment>{Locked='%1'} Automation name for when the mode header is focused. %1 = the current converter mode: "Weight and Mass", "Energy", "Volume", etc.</comment>
-  </data>
-  <data name="HeaderAutomationName_Date" xml:space="preserve">
-    <value>حالت محاسبه تاریخ</value>
-    <comment>Automation name for when the mode header is focused and the current mode is Date Calculation.</comment>
+    <comment>{Locked='%1'} Automation name for when the mode header is focused. %1 = the current converter mode: "Weight and mass", "Energy", "Volume", etc.</comment>
   </data>
   <data name="DockPanel.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>فهرست‌های تاریخچه و حافظه</value>
@@ -2613,51 +2522,51 @@
   </data>
   <data name="divideButton.[using:CalculatorApp.Controls]CalculatorButton.AuditoryFeedback" xml:space="preserve">
     <value>تقسیم بر</value>
-    <comment>Auditory feedback for Screen Reader users. Users will hear "Display is 7 divided by" when the button is pressed.</comment>
+    <comment>Auditory feedback for screen reader users. Users will hear "Display is 7 divided by" when the button is pressed.</comment>
   </data>
   <data name="multiplyButton.[using:CalculatorApp.Controls]CalculatorButton.AuditoryFeedback" xml:space="preserve">
     <value>بار</value>
-    <comment>Auditory feedback for Screen Reader users. Users will hear "Display is 7 times" when the button is pressed.</comment>
+    <comment>Auditory feedback for screen reader users. Users will hear "Display is 7 times" when the button is pressed.</comment>
   </data>
   <data name="minusButton.[using:CalculatorApp.Controls]CalculatorButton.AuditoryFeedback" xml:space="preserve">
     <value>منهای</value>
-    <comment>Auditory feedback for Screen Reader users. Users will hear "Display is 7 minus" when the button is pressed.</comment>
+    <comment>Auditory feedback for screen reader users. Users will hear "Display is 7 minus" when the button is pressed.</comment>
   </data>
   <data name="plusButton.[using:CalculatorApp.Controls]CalculatorButton.AuditoryFeedback" xml:space="preserve">
     <value>به علاوه</value>
-    <comment>Auditory feedback for Screen Reader users. Users will hear "Display is 7 plus" when the button is pressed.</comment>
+    <comment>Auditory feedback for screen reader users. Users will hear "Display is 7 plus" when the button is pressed.</comment>
   </data>
   <data name="powerButton.[using:CalculatorApp.Controls]CalculatorButton.AuditoryFeedback" xml:space="preserve">
     <value>به توان</value>
-    <comment>Auditory feedback for Screen Reader users. Users will hear "Display is 7 to the power of" when the button is pressed.</comment>
+    <comment>Auditory feedback for screen reader users. Users will hear "Display is 7 to the power of" when the button is pressed.</comment>
   </data>
   <data name="ySquareRootButton.[using:CalculatorApp.Controls]CalculatorButton.AuditoryFeedback" xml:space="preserve">
     <value>ریشه y</value>
-    <comment>Auditory feedback for Screen Reader users. Users will hear "Display is 7 y root" when the button is pressed.</comment>
+    <comment>Auditory feedback for screen reader users. Users will hear "Display is 7 y root" when the button is pressed.</comment>
   </data>
   <data name="modButton.[using:CalculatorApp.Controls]CalculatorButton.AuditoryFeedback" xml:space="preserve">
     <value>پیمانه</value>
-    <comment>Auditory feedback for Screen Reader users. Users will hear "Display is 7 mod" when the button is pressed.</comment>
+    <comment>Auditory feedback for screen reader users. Users will hear "Display is 7 mod" when the button is pressed.</comment>
   </data>
   <data name="lshButton.[using:CalculatorApp.Controls]CalculatorButton.AuditoryFeedback" xml:space="preserve">
     <value>انتقال به چپ</value>
-    <comment>Auditory feedback for Screen Reader users. Users will hear "Display is 7 left shift" when the button is pressed.</comment>
+    <comment>Auditory feedback for screen reader users. Users will hear "Display is 7 left shift" when the button is pressed.</comment>
   </data>
   <data name="rshButton.[using:CalculatorApp.Controls]CalculatorButton.AuditoryFeedback" xml:space="preserve">
     <value>انتقال به راست</value>
-    <comment>Auditory feedback for Screen Reader users. Users will hear "Display is 7 right shift" when the button is pressed.</comment>
+    <comment>Auditory feedback for screen reader users. Users will hear "Display is 7 right shift" when the button is pressed.</comment>
   </data>
   <data name="orButton.[using:CalculatorApp.Controls]CalculatorButton.AuditoryFeedback" xml:space="preserve">
     <value>یا</value>
-    <comment>Auditory feedback for Screen Reader users. Users will hear "Display is 7 or" when the button is pressed. OR is a mathematical operation on two binary values.</comment>
+    <comment>Auditory feedback for screen reader users. Users will hear "Display is 7 or" when the button is pressed. OR is a mathematical operation on two binary values.</comment>
   </data>
   <data name="xorButton.[using:CalculatorApp.Controls]CalculatorButton.AuditoryFeedback" xml:space="preserve">
     <value>x یا</value>
-    <comment>Auditory feedback for Screen Reader users. Users will hear "Display is 7 x or" when the button is pressed. XOR is a mathematical operation on two binary values. Here the feedback is "x or" in order to get the correct pronunciation.</comment>
+    <comment>Auditory feedback for screen reader users. Users will hear "Display is 7 x or" when the button is pressed. XOR is a mathematical operation on two binary values. Here the feedback is "x or" in order to get the correct pronunciation.</comment>
   </data>
   <data name="andButton.[using:CalculatorApp.Controls]CalculatorButton.AuditoryFeedback" xml:space="preserve">
     <value>و</value>
-    <comment>Auditory feedback for Screen Reader users. Users will hear "Display is 7 and" when the button is pressed. AND is a mathematical operation on two binary values.</comment>
+    <comment>Auditory feedback for screen reader users. Users will hear "Display is 7 and" when the button is pressed. AND is a mathematical operation on two binary values.</comment>
   </data>
   <data name="CurrencyFromToRatioFormat" xml:space="preserve">
     <value>%1 %2 = %3 %4</value>
@@ -2975,18 +2884,6 @@
     <value>کتانژانت هذلولی معکوس</value>
     <comment>Name for the inverse hyperbolic cotangent function. Used by screen readers.</comment>
   </data>
-  <data name="CubeRoot" xml:space="preserve">
-    <value>ریشه سوم</value>
-    <comment>Name for the cube root function. Used by screen readers.</comment>
-  </data>
-  <data name="Logy" xml:space="preserve">
-    <value>پایه لگاریتم</value>
-    <comment>Name for the logbasey function. Used by screen readers.</comment>
-  </data>
-  <data name="AbsoluteValue" xml:space="preserve">
-    <value>قدر مطلق</value>
-    <comment>Name for the absolute value function. Used by screen readers.</comment>
-  </data>
   <data name="LeftShift" xml:space="preserve">
     <value>انتقال به چپ</value>
     <comment>Name for the programmer function that shifts bits to the left. Used by screen readers.</comment>
@@ -3039,14 +2936,6 @@
     <value>از</value>
     <comment>From Date Header for AddSubtract Date Picker</comment>
   </data>
-  <data name="CalculationResultScrollLeft.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>نتیجه محاسبه پیمایش چپ</value>
-    <comment>Automation label for the "Scroll Left" button that appears when a calculation result is too large to fit in calculation result text box.</comment>
-  </data>
-  <data name="CalculationResultScrollRight.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>نتیجه محاسبه پیمایش راست</value>
-    <comment>Automation label for the "Scroll Right" button that appears when a calculation result is too large to fit in calculation result text box.</comment>
-  </data>
   <data name="CalculationFailed" xml:space="preserve">
     <value>محاسبه انجام نشد</value>
     <comment>Text displayed when the application is not able to do a calculation</comment>
@@ -3075,14 +2964,6 @@
     <value>بیتی</value>
     <comment>Displayed on the button that contains a flyout for the bitwise functions in programmer mode.</comment>
   </data>
-  <data name="bitShiftButton.Text" xml:space="preserve">
-    <value>تغییر مکان بیت</value>
-    <comment>Displayed on the button that contains a flyout for the bit shift functions in programmer mode.</comment>
-  </data>
-  <data name="trigShiftButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>تابع معکوس</value>
-    <comment>Screen Reader prompt for the shift button in the trig flyout in scientific mode.</comment>
-  </data>
   <data name="hypButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>تابع هذلولی</value>
     <comment>Screen reader prompt for the Calculator button HYP in the scientific flyout keypad</comment>
@@ -3091,49 +2972,13 @@
     <value>سکانت</value>
     <comment>Screen reader prompt for the Calculator button sec in the scientific flyout keypad</comment>
   </data>
-  <data name="sechButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>سکانت هذلولی</value>
-    <comment>Screen reader prompt for the Calculator button sech in the scientific flyout keypad</comment>
-  </data>
-  <data name="invsecButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>آرک سکانت</value>
-    <comment>Screen reader prompt for the Calculator button arc sec in the scientific flyout keypad</comment>
-  </data>
-  <data name="invsechButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>آرک سکانت هذلولی</value>
-    <comment>Screen reader prompt for the Calculator button arc sec in the scientific flyout keypad</comment>
-  </data>
   <data name="cscButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>کسکانت</value>
     <comment>Screen reader prompt for the Calculator button csc in the scientific flyout keypad</comment>
   </data>
-  <data name="cschButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>کسکانت هذلولی</value>
-    <comment>Screen reader prompt for the Calculator button csch in the scientific flyout keypad</comment>
-  </data>
-  <data name="invcscButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>آرک کسکانت</value>
-    <comment>Screen reader prompt for the Calculator button arc csc in the scientific flyout keypad</comment>
-  </data>
-  <data name="invcschButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>آرک کسکانت هذلولی</value>
-    <comment>Screen reader prompt for the Calculator button arc csc in the scientific flyout keypad</comment>
-  </data>
   <data name="cotButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>کتانژانت</value>
     <comment>Screen reader prompt for the Calculator button cot in the scientific flyout keypad</comment>
-  </data>
-  <data name="cothButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>کتانژانت هذلولی</value>
-    <comment>Screen reader prompt for the Calculator button coth in the scientific flyout keypad</comment>
-  </data>
-  <data name="invcotButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>آرک کتانژانت</value>
-    <comment>Screen reader prompt for the Calculator button arc cot in the scientific flyout keypad</comment>
-  </data>
-  <data name="invcothButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>آرک کتانژانت هذلولی</value>
-    <comment>Screen reader prompt for the Calculator button arc coth in the scientific flyout keypad</comment>
   </data>
   <data name="floorButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>کف</value>
@@ -3146,10 +2991,6 @@
   <data name="randButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>تصادفی</value>
     <comment>Screen reader prompt for the Calculator button random in the scientific flyout keypad</comment>
-  </data>
-  <data name="absButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>قدر مطلق</value>
-    <comment>Screen reader prompt for the Calculator button abs in the scientific flyout keypad</comment>
   </data>
   <data name="eulerButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>عدد اویلر</value>
@@ -3165,7 +3006,7 @@
   </data>
   <data name="nandButton.[using:CalculatorApp.Controls]CalculatorButton.AuditoryFeedback" xml:space="preserve">
     <value>ناوَ</value>
-    <comment>Auditory feedback for Screen Reader users. Users will hear "Display is 7 nand" when the button is pressed. NAND is a mathematical operation on two binary values.</comment>
+    <comment>Auditory feedback for screen reader users. Users will hear "Display is 7 nand" when the button is pressed. NAND is a mathematical operation on two binary values.</comment>
   </data>
   <data name="norButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>نایا</value>
@@ -3173,7 +3014,7 @@
   </data>
   <data name="norButton.[using:CalculatorApp.Controls]CalculatorButton.AuditoryFeedback" xml:space="preserve">
     <value>نایا</value>
-    <comment>Auditory feedback for Screen Reader users. Users will hear "Display is 7 nor" when the button is pressed. NAND is a mathematical operation on two binary values.</comment>
+    <comment>Auditory feedback for screen reader users. Users will hear "Display is 7 nor" when the button is pressed. NAND is a mathematical operation on two binary values.</comment>
   </data>
   <data name="rolCarryButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>چرخش به چپ با انتقال رقم</value>
@@ -3183,37 +3024,13 @@
     <value>چرخش به راست با انتقال رقم</value>
     <comment>Screen reader prompt for the Calculator button ror with carry in the scientific flyout keypad</comment>
   </data>
-  <data name="lshLogicalButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>انتقال به چپ</value>
-    <comment>Screen reader prompt for the Calculator button lshLogical in the scientific flyout keypad</comment>
-  </data>
   <data name="lshLogicalButton.[using:CalculatorApp.Controls]CalculatorButton.AuditoryFeedback" xml:space="preserve">
     <value>انتقال به چپ</value>
-    <comment>Auditory feedback for Screen Reader users. Users will hear "Display is 7 left shift" when the button is pressed. NAND is a mathematical operation on two binary values.</comment>
-  </data>
-  <data name="rshLogicalButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>انتقال به راست</value>
-    <comment>Screen reader prompt for the Calculator button rshLogical in the scientific flyout keypad</comment>
+    <comment>Auditory feedback for screen reader users. Users will hear "Display is 7 left shift" when the button is pressed. NAND is a mathematical operation on two binary values.</comment>
   </data>
   <data name="rshLogicalButton.[using:CalculatorApp.Controls]CalculatorButton.AuditoryFeedback" xml:space="preserve">
     <value>انتقال به راست</value>
-    <comment>Auditory feedback for Screen Reader users. Users will hear "Display is 7 right shift" when the button is pressed. NAND is a mathematical operation on two binary values.</comment>
-  </data>
-  <data name="arithmeticShiftButton.Content" xml:space="preserve">
-    <value>تغییر مکان حسابی</value>
-    <comment>Label for a radio button that toggles arithmetic shift behavior for the shift operations.</comment>
-  </data>
-  <data name="logicalShiftButton.Content" xml:space="preserve">
-    <value>تغییر مکان منطقی</value>
-    <comment>Label for a radio button that toggles logical shift behavior for the shift operations.</comment>
-  </data>
-  <data name="rotateCircularButton.Content" xml:space="preserve">
-    <value>چرخش انتقال مکان دایره‌ای</value>
-    <comment>Label for a radio button that toggles rotate circular behavior for the shift operations.</comment>
-  </data>
-  <data name="rotateCarryShiftButton.Content" xml:space="preserve">
-    <value>چرخش از طریق انتقال مکان دایره‌ای رقم نقلی</value>
-    <comment>Label for a radio button that toggles rotate circular with carry behavior for the shift operations.</comment>
+    <comment>Auditory feedback for screen reader users. Users will hear "Display is 7 right shift" when the button is pressed. NAND is a mathematical operation on two binary values.</comment>
   </data>
   <data name="cubeRootButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>ریشه سوم</value>
@@ -3235,14 +3052,6 @@
     <value>تغییر مکان بیت</value>
     <comment>Screen reader prompt for the square root button on the scientific operator keypad</comment>
   </data>
-  <data name="ScientificOperatorPanel.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>پانل عملگرهای علمی</value>
-    <comment>Screen reader prompt for the Scientific Operator Panels on the scientific operator keypad</comment>
-  </data>
-  <data name="ProgrammerOperatorPanel.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>پانل عملگرهای برنامه‌نویسی</value>
-    <comment>Screen reader prompt for the Programmer Operator Panels on the programmer operator keypad</comment>
-  </data>
   <data name="MostSignificantBit" xml:space="preserve">
     <value>پراهمیت‌ترین بیت</value>
     <comment>Used to describe the last bit of a binary number. Used in bit flip</comment>
@@ -3259,41 +3068,17 @@
     <value>تازه‌سازی نما به‌صورت خودکار (Ctrl + 0)</value>
     <comment>This is the tool tip automation name for the Calculator graph view button.</comment>
   </data>
-  <data name="graphViewButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>نمای نمودار</value>
-    <comment>Screen reader prompt for the graph view button.</comment>
-  </data>
-  <data name="GraphViewAutomaticBestFitAnnouncement" xml:space="preserve">
-    <value>بهترین تناسب خودکار</value>
-    <comment>Announcement used in Graphing Calculator when graph view button is clicked and automatic best fit is set</comment>
-  </data>
-  <data name="GraphViewManualAdjustmentAnnouncement" xml:space="preserve">
-    <value>تنظیم دستی</value>
-    <comment>Announcement used in Graphing Calculator when graph view button is clicked and manual adjustment is set</comment>
-  </data>
   <data name="GridResetAnnouncement" xml:space="preserve">
     <value>نمای نمودار بازنشانی شده است</value>
     <comment>Announcement used in Graphing Calculator when graph view button is clicked and automatic best fit is set, resetting the graph</comment>
   </data>
-  <data name="zoomInButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
-    <value>نزدیکنمایی (Ctrl + به‌علاوه)</value>
-    <comment>This is the tool tip automation name for the Calculator zoom in button.</comment>
-  </data>
   <data name="zoomInButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>نزدیکنمایی</value>
+    <value>بزرگنمایی</value>
     <comment>Screen reader prompt for the zoom in button.</comment>
   </data>
-  <data name="zoomOutButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
-    <value>دورنمایی (Ctrl + منها)</value>
-    <comment>This is the tool tip automation name for the Calculator zoom out button.</comment>
-  </data>
   <data name="zoomOutButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>دورنمایی</value>
+    <value>کوچکنمایی</value>
     <comment>Screen reader prompt for the zoom out button.</comment>
-  </data>
-  <data name="EquationTextBoxAddPanel.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
-    <value>افزودن معادله</value>
-    <comment>Placeholder text for the equation input button</comment>
   </data>
   <data name="ShareActionErrorMessage" xml:space="preserve">
     <value>در حال حاضر اشتراک‌گذاری امکان‌پذیر نیست.</value>
@@ -3439,14 +3224,6 @@
     <value>دامنه</value>
     <comment>Title for KeyGraphFeatures Domain Property</comment>
   </data>
-  <data name="HorizontalAsymptotes" xml:space="preserve">
-    <value>مجانب‌های افقی</value>
-    <comment>Title for KeyGraphFeatures Horizontal Aysmptotes Property</comment>
-  </data>
-  <data name="InflectionPoints" xml:space="preserve">
-    <value>نقاط عطف</value>
-    <comment>Title for KeyGraphFeatures Inflection Points Property</comment>
-  </data>
   <data name="KGFAnalysisNotSupported" xml:space="preserve">
     <value>تجزیه و تحلیل برای این تابع پشتیبانی نمی‌شود.</value>
     <comment>Error displayed when graph analysis is not supported or had an error.</comment>
@@ -3467,10 +3244,6 @@
     <value>یکنوایی</value>
     <comment>Title for KeyGraphFeatures Monotonicity Property</comment>
   </data>
-  <data name="ObliqueAsymptotes" xml:space="preserve">
-    <value>مجانب مایل</value>
-    <comment>Title for KeyGraphFeatures Oblique Asymptotes Property</comment>
-  </data>
   <data name="Parity" xml:space="preserve">
     <value>پاریته</value>
     <comment>Title for KeyGraphFeatures Parity Property</comment>
@@ -3482,10 +3255,6 @@
   <data name="Range" xml:space="preserve">
     <value>محدوده</value>
     <comment>Title for KeyGraphFeatures Range Property</comment>
-  </data>
-  <data name="VerticalAsymptotes" xml:space="preserve">
-    <value>مجانب قائم</value>
-    <comment>Title for KeyGraphFeatures Vertical Asymptotes Property</comment>
   </data>
   <data name="XIntercept" xml:space="preserve">
     <value>تقاطع با محور X</value>
@@ -3818,10 +3587,6 @@
     <value>گزینه‌های نمودار</value>
     <comment>This is the automation name text for the graph options button in Graphing Calculator</comment>
   </data>
-  <data name="GraphOptionsHeading.Text" xml:space="preserve">
-    <value>گزینه‌های نمودار</value>
-    <comment>Heading for the Graph Options flyout in Graphing mode.</comment>
-  </data>
   <data name="VariableAreaSettings.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>گزینه‌های متغیر</value>
     <comment>Screen reader prompt for the variable settings toggle button</comment>
@@ -3829,30 +3594,6 @@
   <data name="VariableAreaSettings.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
     <value>تغییر وضعیت گزینه‌های متغیر</value>
     <comment>Tool tip for the variable settings toggle button</comment>
-  </data>
-  <data name="LineThicknessBoxHeading.Text" xml:space="preserve">
-    <value>ضخامت خط</value>
-    <comment>Heading for the Graph Options flyout in Graphing mode.</comment>
-  </data>
-  <data name="LineOptionsHeading.Text" xml:space="preserve">
-    <value>گزینه‌های خط</value>
-    <comment>Heading for the equation style flyout in Graphing mode.</comment>
-  </data>
-  <data name="SmallLineWidthAutomationName" xml:space="preserve">
-    <value>پهنای خط کوچک</value>
-    <comment>Automation name for line width setting</comment>
-  </data>
-  <data name="MediumLineWidthAutomationName" xml:space="preserve">
-    <value>پهنای خط متوسط</value>
-    <comment>Automation name for line width setting</comment>
-  </data>
-  <data name="LargeLineWidthAutomationName" xml:space="preserve">
-    <value>پهنای خط بزرگ</value>
-    <comment>Automation name for line width setting</comment>
-  </data>
-  <data name="ExtraLargeLineWidthAutomationName" xml:space="preserve">
-    <value>پهنای خط خیلی بزرگ</value>
-    <comment>Automation name for line width setting</comment>
   </data>
   <data name="mathRichEditBox.PlaceholderText" xml:space="preserve">
     <value>یک عبارت وارد کنید</value>
@@ -3878,54 +3619,6 @@
     <value>لغو عمل</value>
     <comment>Undo menu item from the Equation TextBox</comment>
   </data>
-  <data name="selectAllEquationMenuItem.Text" xml:space="preserve">
-    <value>انتخاب همه</value>
-    <comment>Select all menu item from the Equation TextBox</comment>
-  </data>
-  <data name="EquationInputButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>مورد فهرست ورودی تابع</value>
-    <comment>The automation name for the Equation Input ListView item that is shown when Calculator is in graphing mode.</comment>
-  </data>
-  <data name="EquationInputList.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>فهرست ورودی تابع</value>
-    <comment>The automation name for the Equation Input ListView that is shown when Calculator is in graphing mode.</comment>
-  </data>
-  <data name="EquationInputPanel.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>پنجره ورودی تابع</value>
-    <comment>The automation name for the Equation Input StackPanel that is shown when Calculator is in graphing mode.</comment>
-  </data>
-  <data name="VariableStackPanel.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>پنجره متغیر</value>
-    <comment>The automation name for the Variable StackPanel that is shown when Calculator is in graphing mode.</comment>
-  </data>
-  <data name="VariableListView.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>فهرست متغیر</value>
-    <comment>The automation name for the Variable ListView that is shown when Calculator is in graphing mode.</comment>
-  </data>
-  <data name="VariableListViewItem" xml:space="preserve">
-    <value>مورد فهرست متغیر %1</value>
-    <comment>The automation name for the Variable ListViewItem that is shown when Calculator is in graphing mode.</comment>
-  </data>
-  <data name="VariableValueTextBox.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>کادر متن مقدار متغیر</value>
-    <comment>The automation name for the Variable Value Textbox that is shown when Calculator is in graphing mode.</comment>
-  </data>
-  <data name="VariableValueSlider.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>نوار لغزنده مقدار متغیر</value>
-    <comment>The automation name for the Variable Value Slider that is shown when Calculator is in graphing mode.</comment>
-  </data>
-  <data name="VariableMinTextBox.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>کادر متن حداقل مقدار متغیر</value>
-    <comment>The automation name for the Variable Min Value Textbox that is shown when Calculator is in graphing mode.</comment>
-  </data>
-  <data name="VariableStepTextBox.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>کادر متن مقدار گام متغیر</value>
-    <comment>The automation name for the Variable Step Textbox that is shown when Calculator is in graphing mode.</comment>
-  </data>
-  <data name="VariableMaxTextBox.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>کادر متن حداکثر مقدار متغیر</value>
-    <comment>The automation name for the Variable Max Value Textbox that is shown when Calculator is in graphing mode.</comment>
-  </data>
   <data name="solidLineStyleAutomationName" xml:space="preserve">
     <value>سبک خط ممتد</value>
     <comment>Name of the solid line style for a graphed equation</comment>
@@ -3937,10 +3630,6 @@
   <data name="dashLineStyleAutomationName" xml:space="preserve">
     <value>سبک خط‌چین</value>
     <comment>Name of the dashed line style for a graphed equation</comment>
-  </data>
-  <data name="equationColor1AutomationName" xml:space="preserve">
-    <value>سرمه‌ای</value>
-    <comment>Name of color in the color picker</comment>
   </data>
   <data name="equationColor2AutomationName" xml:space="preserve">
     <value>آبی مایل به سبز</value>
@@ -3954,14 +3643,6 @@
     <value>سبز</value>
     <comment>Name of color in the color picker</comment>
   </data>
-  <data name="equationColor5AutomationName" xml:space="preserve">
-    <value>سبز نعنایی</value>
-    <comment>Name of color in the color picker</comment>
-  </data>
-  <data name="equationColor6AutomationName" xml:space="preserve">
-    <value>سبز تیره</value>
-    <comment>Name of color in the color picker</comment>
-  </data>
   <data name="equationColor7AutomationName" xml:space="preserve">
     <value>زغالی</value>
     <comment>Name of color in the color picker</comment>
@@ -3970,20 +3651,8 @@
     <value>قرمز</value>
     <comment>Name of color in the color picker</comment>
   </data>
-  <data name="equationColor9AutomationName" xml:space="preserve">
-    <value>گوجه‌ای روشن</value>
-    <comment>Name of color in the color picker</comment>
-  </data>
   <data name="equationColor10AutomationName" xml:space="preserve">
     <value>سرخابی</value>
-    <comment>Name of color in the color picker</comment>
-  </data>
-  <data name="equationColor11AutomationName" xml:space="preserve">
-    <value>زرد طلایی</value>
-    <comment>Name of color in the color picker</comment>
-  </data>
-  <data name="equationColor12AutomationName" xml:space="preserve">
-    <value>نارنجی روشن</value>
     <comment>Name of color in the color picker</comment>
   </data>
   <data name="equationColor13AutomationName" xml:space="preserve">
@@ -4014,10 +3683,6 @@
     <value>رنگ ۴</value>
     <comment>Name of color in the color picker</comment>
   </data>
-  <data name="GraphThemeHeading.Text" xml:space="preserve">
-    <value>طرح زمینه نمودار</value>
-    <comment>Graph settings heading for the theme options</comment>
-  </data>
   <data name="AlwaysLightTheme.Content" xml:space="preserve">
     <value>همیشه روشن</value>
     <comment>Graph settings option to set graph to light theme</comment>
@@ -4041,10 +3706,6 @@
   <data name="FunctionRemovedAnnouncement" xml:space="preserve">
     <value>تابع حذف شد</value>
     <comment>Announcement used in Graphing Calculator when a function is removed from the function list</comment>
-  </data>
-  <data name="KGFEquationTextBox.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>جعبه معادله تجزیه و تحلیل تابع</value>
-    <comment>This is the automation name text for the equation box in the function analysis panel</comment>
   </data>
   <data name="graphingEqualButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>مساوی</value>
@@ -4082,14 +3743,6 @@
     <value>ارسال</value>
     <comment>Screen reader prompt for the submit button on the graphing calculator operator keypad</comment>
   </data>
-  <data name="FunctionAnalysisGrid.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>تجزیه و تحلیل تابع</value>
-    <comment>Screen reader prompt for the function analysis grid</comment>
-  </data>
-  <data name="GraphSettingsGrid.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>گزینه‌های نمودار</value>
-    <comment>Screen reader prompt for the graph options panel</comment>
-  </data>
   <data name="DockPanel_HistoryMemoryLists" xml:space="preserve">
     <value>فهرست‌های تاریخچه و حافظه</value>
     <comment>Automation name for the group of controls for history and memory lists.</comment>
@@ -4110,22 +3763,6 @@
     <value>برگشت به نمای کامل ماشین حساب</value>
     <comment>Announcement to indicate calculator window is now back to full view.</comment>
   </data>
-  <data name="arithmeticShiftButtonSelected" xml:space="preserve">
-    <value>Arithmetic Shift انتخاب شده است</value>
-    <comment>Label for a radio button that toggles arithmetic shift behavior for the shift operations.</comment>
-  </data>
-  <data name="logicalShiftButtonSelected" xml:space="preserve">
-    <value>Logical Shift انتخاب شده است</value>
-    <comment>Label for a radio button that toggles logical shift behavior for the shift operations.</comment>
-  </data>
-  <data name="rotateCircularButtonSelected" xml:space="preserve">
-    <value>Rotate Circular Shift انتخاب شده است</value>
-    <comment>Label for a radio button that toggles rotate circular behavior for the shift operations.</comment>
-  </data>
-  <data name="rotateCarryShiftButtonSelected" xml:space="preserve">
-    <value>Rotate Through Carry Circular Shift انتخاب شده است</value>
-    <comment>Label for a radio button that toggles rotate circular with carry behavior for the shift operations.</comment>
-  </data>
   <data name="SettingsHeader.Text" xml:space="preserve">
     <value>تنظیمات</value>
     <comment>Header text of Settings page</comment>
@@ -4136,11 +3773,11 @@
   </data>
   <data name="SettingsAppThemeTitle.Text" xml:space="preserve">
     <value>طرح زمینه برنامه</value>
-    <comment>Title of App Theme expander</comment>
+    <comment>Title of App theme expander</comment>
   </data>
   <data name="SettingsAppThemeDescription.Text" xml:space="preserve">
     <value>انتخاب کنید کدام طرح زمینه برنامه نمایش داده شود</value>
-    <comment>Description of App Theme expander</comment>
+    <comment>Description of App theme expander</comment>
   </data>
   <data name="LightThemeRadioButton.Content" xml:space="preserve">
     <value>روشن</value>
@@ -4157,13 +3794,5 @@
   <data name="TitleBarBackButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>بازگشت</value>
     <comment>Screen reader prompt for the Back button in title bar to back to main page</comment>
-  </data>
-  <data name="SettingsPageOpenedAnnouncement" xml:space="preserve">
-    <value>صفحه تنظیمات</value>
-    <comment>Announcement used when Settings page is opened</comment>
-  </data>
-  <data name="AppThemeExpander.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>تنظیمات طرح زمینه برنامه</value>
-    <comment>Screen reader prompt for the App theme Setting radio buttons group</comment>
   </data>
 </root>

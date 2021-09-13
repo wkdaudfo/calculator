@@ -481,18 +481,6 @@
     <value>標準</value>
     <comment>Label for a control that activates standard mode calculator layout.</comment>
   </data>
-  <data name="converterModeButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>コンバーター モード</value>
-    <comment>Screen reader prompt for a control that activates the unit converter mode.</comment>
-  </data>
-  <data name="scientificModeButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>関数電卓モード</value>
-    <comment>Screen reader prompt for a control that activates scientific mode calculator layout</comment>
-  </data>
-  <data name="standardModeButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>標準モード</value>
-    <comment>Screen reader prompt for a control that activates standard mode calculator layout.</comment>
-  </data>
   <data name="ClearHistory.Name" xml:space="preserve">
     <value>すべての履歴をクリア</value>
     <comment>"ClearHistory" used on the calculator history pane that stores the calculation history.</comment>
@@ -593,10 +581,6 @@
     <value>履歴がクリアされました</value>
     <comment>Screen reader prompt for the Calculator History Clear button, when the button is invoked.</comment>
   </data>
-  <data name="HideHistory.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>履歴の非表示</value>
-    <comment>Screen reader prompt for the Calculator History Hide button</comment>
-  </data>
   <data name="HistoryButton_Open" xml:space="preserve">
     <value>履歴のポップアップを開く</value>
     <comment>Screen reader prompt for the Calculator History button, when the flyout is closed.</comment>
@@ -604,10 +588,6 @@
   <data name="HistoryButton_Close" xml:space="preserve">
     <value>履歴のポップアップを閉じる</value>
     <comment>Screen reader prompt for the Calculator History button, when the flyout is open.</comment>
-  </data>
-  <data name="memButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>メモリ保存</value>
-    <comment>Screen reader prompt for the Calculator Memory button</comment>
   </data>
   <data name="memButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
     <value>メモリ保存 (Ctrl+M)</value>
@@ -621,25 +601,13 @@
     <value>メモリがクリアされました</value>
     <comment>Screen reader prompt for the Calculator Clear Memory button, when the button is invoked.</comment>
   </data>
-  <data name="MemRecall.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>メモリ呼び出し</value>
-    <comment>Screen reader prompt for the Calculator Memory Recall button</comment>
-  </data>
   <data name="MemRecall.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
     <value>メモリ呼び出し (Ctrl+R)</value>
     <comment>This is the tool tip automation name for the Memory Recall (MR) button.</comment>
   </data>
-  <data name="MemPlus.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>メモリ加算</value>
-    <comment>Screen reader prompt for the Calculator Memory Add button</comment>
-  </data>
   <data name="MemPlus.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
     <value>メモリ加算 (Ctrl+P)</value>
     <comment>This is the tool tip automation name for the Memory Add (M+) button.</comment>
-  </data>
-  <data name="MemMinus.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>メモリ減算</value>
-    <comment>Screen reader prompt for the Calculator Memory Subtract button</comment>
   </data>
   <data name="MemMinus.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
     <value>メモリ減算 (Ctrl+Q)</value>
@@ -845,10 +813,6 @@
     <value>フル キーパッド</value>
     <comment>Screen reader prompt for the Calculator numberPad button</comment>
   </data>
-  <data name="decimalSeparatorButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>小数点</value>
-    <comment>Screen reader prompt for the "." button</comment>
-  </data>
   <data name="clearEntryButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>入力のクリア</value>
     <comment>Screen reader prompt for the "CE" button</comment>
@@ -869,10 +833,6 @@
     <value>等号</value>
     <comment>Screen reader prompt for the equals button on the scientific operator keypad</comment>
   </data>
-  <data name="shiftButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>逆関数</value>
-    <comment>Screen Reader prompt for the shift button on the number pad in scientific mode.</comment>
-  </data>
   <data name="minusButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>マイナス</value>
     <comment>Screen reader prompt for the minus button on the number pad</comment>
@@ -892,14 +852,6 @@
   <data name="percentButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>%</value>
     <comment>Screen reader prompt for the percent button on the scientific operator keypad</comment>
-  </data>
-  <data name="negateButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>正 負</value>
-    <comment>Screen reader prompt for the negate button on the scientific operator keypad</comment>
-  </data>
-  <data name="converterNegateButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>正 負</value>
-    <comment>Screen reader prompt for the negate button on the converter operator keypad</comment>
   </data>
   <data name="invertButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>逆数</value>
@@ -948,18 +900,6 @@
   <data name="tanButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>正接</value>
     <comment>Screen reader prompt for the Calculator tan button  on the scientific operator keypad</comment>
-  </data>
-  <data name="sinhButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>双曲正弦</value>
-    <comment>Screen reader prompt for the Calculator sinh button  on the scientific operator keypad</comment>
-  </data>
-  <data name="coshButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>双曲余弦</value>
-    <comment>Screen reader prompt for the Calculator cosh button  on the scientific operator keypad</comment>
-  </data>
-  <data name="tanhButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>双曲タンジェント</value>
-    <comment>Screen reader prompt for the Calculator tanh button  on the scientific operator keypad</comment>
   </data>
   <data name="xpower2Button.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>2 乗</value>
@@ -1025,10 +965,6 @@
     <value>指数近似曲線</value>
     <comment>Screen reader for the exp button on the scientific operator keypad</comment>
   </data>
-  <data name="dmsButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>度 分 秒</value>
-    <comment>Screen reader for the exp button on the scientific operator keypad</comment>
-  </data>
   <data name="degreesButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>度</value>
     <comment>Screen reader for the exp button on the scientific operator keypad</comment>
@@ -1056,14 +992,6 @@
   <data name="radButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>ラジアン切り替え</value>
     <comment>This is the Deg button's Rad mode automation name on the scientific operator keypad. Should read as "Radians toggle button".</comment>
-  </data>
-  <data name="FlyoutNav.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>モードをドロップダウン</value>
-    <comment>Screen reader prompt for the Mode dropdown field in Snapped and Portrait modes.</comment>
-  </data>
-  <data name="Categories.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>カテゴリ化のドロップダウン</value>
-    <comment>Screen reader prompt for the Categories dropdown field.</comment>
   </data>
   <data name="EnterAlwaysOnTopButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>常に手前に表示</value>
@@ -1122,7 +1050,7 @@
     <comment>Unit conversion category name called Length</comment>
   </data>
   <data name="CategoryName_PowerText" xml:space="preserve">
-    <value>電源</value>
+    <value>累乗</value>
     <comment>Unit conversion category name called Power (eg. the power of an engine or a light bulb)</comment>
   </data>
   <data name="CategoryName_SpeedText" xml:space="preserve">
@@ -1140,10 +1068,6 @@
   <data name="CategoryName_TemperatureText" xml:space="preserve">
     <value>温度</value>
     <comment>Unit conversion category name called Temperature</comment>
-  </data>
-  <data name="CategoryName_WeightText" xml:space="preserve">
-    <value>重量と質量</value>
-    <comment>Unit conversion category name called Weight and Mass. Note that this category includes units of both mass and weight. People use the word "weight" in everyday life for measuring things such as food and people. In case a language has same word for "weight" and "mass" please use one word only.</comment>
   </data>
   <data name="CategoryName_PressureText" xml:space="preserve">
     <value>圧力</value>
@@ -1837,10 +1761,6 @@
     <value>ナノメートル</value>
     <comment>A measurement unit for length. (Please choose the most appropriate plural form to fit any number between 0 and 999,999,999,999,999)</comment>
   </data>
-  <data name="UnitName_NauticalMile" xml:space="preserve">
-    <value>海里</value>
-    <comment>A measurement unit for length. (Please choose the most appropriate plural form to fit any number between 0 and 999,999,999,999,999)</comment>
-  </data>
   <data name="UnitName_Petabit" xml:space="preserve">
     <value>ペタビット</value>
     <comment>A measurement unit for data. (Please choose the most appropriate plural form to fit any number between 0 and 999,999,999,999,999)</comment>
@@ -2285,10 +2205,6 @@
     <value>サッカー ボール</value>
     <comment>A soccer ball, used as a comparison measurement unit for weight. (Please choose the most appropriate plural form to fit any number between 0 and 999,999,999,999,999)</comment>
   </data>
-  <data name="MemoryItemHelpText" xml:space="preserve">
-    <value>メモリ項目</value>
-    <comment>Help text used by accessibility tools to indicate that an item in the list of memory values is a memory item.</comment>
-  </data>
   <data name="SupplementaryUnit_AutomationName" xml:space="preserve">
     <value>%1 %2</value>
     <comment>This string is what is read by Narrator, and other screen readers, for the supplementary value at the bottom of the converter view, %1 = the value of the supplementary unit (i.e. 0.5), %2 = the unit itself (i.e. inches, meters, etc)</comment>
@@ -2433,12 +2349,9 @@
     <value>ヨビバイト</value>
     <comment>A measurement unit for data. (Please choose the most appropriate plural form to fit any number between 0 and 999,999,999,999,999)</comment>
   </data>
-  <data name="DateCalculationModeText" xml:space="preserve">
-    <value>日付の計算</value>
-  </data>
   <data name="DateCalculationOption.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>計算モード</value>
-    <comment>Automation label for the Date Calculation Mode combobox. Users will hear "Calculation mode combobox".</comment>
+    <comment>Automation label for the Date calculation Mode combobox. Users will hear "Calculation mode combobox".</comment>
   </data>
   <data name="AddOption.Content" xml:space="preserve">
     <value>加算</value>
@@ -2454,7 +2367,7 @@
   </data>
   <data name="Date_DifferenceOption.Content" xml:space="preserve">
     <value>2 つの日付の差を計算</value>
-    <comment>Date Difference option</comment>
+    <comment>Date difference option</comment>
   </data>
   <data name="DaysLabel.Text" xml:space="preserve">
     <value>日</value>
@@ -2529,11 +2442,7 @@
   </data>
   <data name="HeaderAutomationName_Converter" xml:space="preserve">
     <value>%1 コンバーター モード</value>
-    <comment>{Locked='%1'} Automation name for when the mode header is focused. %1 = the current converter mode: "Weight and Mass", "Energy", "Volume", etc.</comment>
-  </data>
-  <data name="HeaderAutomationName_Date" xml:space="preserve">
-    <value>日付計算モード</value>
-    <comment>Automation name for when the mode header is focused and the current mode is Date Calculation.</comment>
+    <comment>{Locked='%1'} Automation name for when the mode header is focused. %1 = the current converter mode: "Weight and mass", "Energy", "Volume", etc.</comment>
   </data>
   <data name="DockPanel.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>履歴とメモリの一覧</value>
@@ -2613,51 +2522,51 @@
   </data>
   <data name="divideButton.[using:CalculatorApp.Controls]CalculatorButton.AuditoryFeedback" xml:space="preserve">
     <value>割る</value>
-    <comment>Auditory feedback for Screen Reader users. Users will hear "Display is 7 divided by" when the button is pressed.</comment>
+    <comment>Auditory feedback for screen reader users. Users will hear "Display is 7 divided by" when the button is pressed.</comment>
   </data>
   <data name="multiplyButton.[using:CalculatorApp.Controls]CalculatorButton.AuditoryFeedback" xml:space="preserve">
     <value>倍</value>
-    <comment>Auditory feedback for Screen Reader users. Users will hear "Display is 7 times" when the button is pressed.</comment>
+    <comment>Auditory feedback for screen reader users. Users will hear "Display is 7 times" when the button is pressed.</comment>
   </data>
   <data name="minusButton.[using:CalculatorApp.Controls]CalculatorButton.AuditoryFeedback" xml:space="preserve">
     <value>引く</value>
-    <comment>Auditory feedback for Screen Reader users. Users will hear "Display is 7 minus" when the button is pressed.</comment>
+    <comment>Auditory feedback for screen reader users. Users will hear "Display is 7 minus" when the button is pressed.</comment>
   </data>
   <data name="plusButton.[using:CalculatorApp.Controls]CalculatorButton.AuditoryFeedback" xml:space="preserve">
     <value>足す</value>
-    <comment>Auditory feedback for Screen Reader users. Users will hear "Display is 7 plus" when the button is pressed.</comment>
+    <comment>Auditory feedback for screen reader users. Users will hear "Display is 7 plus" when the button is pressed.</comment>
   </data>
   <data name="powerButton.[using:CalculatorApp.Controls]CalculatorButton.AuditoryFeedback" xml:space="preserve">
     <value>累乗</value>
-    <comment>Auditory feedback for Screen Reader users. Users will hear "Display is 7 to the power of" when the button is pressed.</comment>
+    <comment>Auditory feedback for screen reader users. Users will hear "Display is 7 to the power of" when the button is pressed.</comment>
   </data>
   <data name="ySquareRootButton.[using:CalculatorApp.Controls]CalculatorButton.AuditoryFeedback" xml:space="preserve">
     <value>y ルート</value>
-    <comment>Auditory feedback for Screen Reader users. Users will hear "Display is 7 y root" when the button is pressed.</comment>
+    <comment>Auditory feedback for screen reader users. Users will hear "Display is 7 y root" when the button is pressed.</comment>
   </data>
   <data name="modButton.[using:CalculatorApp.Controls]CalculatorButton.AuditoryFeedback" xml:space="preserve">
     <value>剰余</value>
-    <comment>Auditory feedback for Screen Reader users. Users will hear "Display is 7 mod" when the button is pressed.</comment>
+    <comment>Auditory feedback for screen reader users. Users will hear "Display is 7 mod" when the button is pressed.</comment>
   </data>
   <data name="lshButton.[using:CalculatorApp.Controls]CalculatorButton.AuditoryFeedback" xml:space="preserve">
     <value>左シフト</value>
-    <comment>Auditory feedback for Screen Reader users. Users will hear "Display is 7 left shift" when the button is pressed.</comment>
+    <comment>Auditory feedback for screen reader users. Users will hear "Display is 7 left shift" when the button is pressed.</comment>
   </data>
   <data name="rshButton.[using:CalculatorApp.Controls]CalculatorButton.AuditoryFeedback" xml:space="preserve">
     <value>右シフト</value>
-    <comment>Auditory feedback for Screen Reader users. Users will hear "Display is 7 right shift" when the button is pressed.</comment>
+    <comment>Auditory feedback for screen reader users. Users will hear "Display is 7 right shift" when the button is pressed.</comment>
   </data>
   <data name="orButton.[using:CalculatorApp.Controls]CalculatorButton.AuditoryFeedback" xml:space="preserve">
     <value>論理和</value>
-    <comment>Auditory feedback for Screen Reader users. Users will hear "Display is 7 or" when the button is pressed. OR is a mathematical operation on two binary values.</comment>
+    <comment>Auditory feedback for screen reader users. Users will hear "Display is 7 or" when the button is pressed. OR is a mathematical operation on two binary values.</comment>
   </data>
   <data name="xorButton.[using:CalculatorApp.Controls]CalculatorButton.AuditoryFeedback" xml:space="preserve">
     <value>排他的論理和</value>
-    <comment>Auditory feedback for Screen Reader users. Users will hear "Display is 7 x or" when the button is pressed. XOR is a mathematical operation on two binary values. Here the feedback is "x or" in order to get the correct pronunciation.</comment>
+    <comment>Auditory feedback for screen reader users. Users will hear "Display is 7 x or" when the button is pressed. XOR is a mathematical operation on two binary values. Here the feedback is "x or" in order to get the correct pronunciation.</comment>
   </data>
   <data name="andButton.[using:CalculatorApp.Controls]CalculatorButton.AuditoryFeedback" xml:space="preserve">
     <value>論理積</value>
-    <comment>Auditory feedback for Screen Reader users. Users will hear "Display is 7 and" when the button is pressed. AND is a mathematical operation on two binary values.</comment>
+    <comment>Auditory feedback for screen reader users. Users will hear "Display is 7 and" when the button is pressed. AND is a mathematical operation on two binary values.</comment>
   </data>
   <data name="CurrencyFromToRatioFormat" xml:space="preserve">
     <value>%1 %2 = %3 %4</value>
@@ -2975,18 +2884,6 @@
     <value>逆双曲線余接</value>
     <comment>Name for the inverse hyperbolic cotangent function. Used by screen readers.</comment>
   </data>
-  <data name="CubeRoot" xml:space="preserve">
-    <value>立方根</value>
-    <comment>Name for the cube root function. Used by screen readers.</comment>
-  </data>
-  <data name="Logy" xml:space="preserve">
-    <value>ログ ベース</value>
-    <comment>Name for the logbasey function. Used by screen readers.</comment>
-  </data>
-  <data name="AbsoluteValue" xml:space="preserve">
-    <value>絶対値</value>
-    <comment>Name for the absolute value function. Used by screen readers.</comment>
-  </data>
   <data name="LeftShift" xml:space="preserve">
     <value>左シフト</value>
     <comment>Name for the programmer function that shifts bits to the left. Used by screen readers.</comment>
@@ -3039,14 +2936,6 @@
     <value>開始</value>
     <comment>From Date Header for AddSubtract Date Picker</comment>
   </data>
-  <data name="CalculationResultScrollLeft.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>計算結果を左へスクロール</value>
-    <comment>Automation label for the "Scroll Left" button that appears when a calculation result is too large to fit in calculation result text box.</comment>
-  </data>
-  <data name="CalculationResultScrollRight.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>計算結果を右へスクロール</value>
-    <comment>Automation label for the "Scroll Right" button that appears when a calculation result is too large to fit in calculation result text box.</comment>
-  </data>
   <data name="CalculationFailed" xml:space="preserve">
     <value>計算できませんでした</value>
     <comment>Text displayed when the application is not able to do a calculation</comment>
@@ -3075,14 +2964,6 @@
     <value>ビット単位</value>
     <comment>Displayed on the button that contains a flyout for the bitwise functions in programmer mode.</comment>
   </data>
-  <data name="bitShiftButton.Text" xml:space="preserve">
-    <value>ビット シフト</value>
-    <comment>Displayed on the button that contains a flyout for the bit shift functions in programmer mode.</comment>
-  </data>
-  <data name="trigShiftButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>逆関数</value>
-    <comment>Screen Reader prompt for the shift button in the trig flyout in scientific mode.</comment>
-  </data>
   <data name="hypButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>双曲線関数</value>
     <comment>Screen reader prompt for the Calculator button HYP in the scientific flyout keypad</comment>
@@ -3091,49 +2972,13 @@
     <value>正割</value>
     <comment>Screen reader prompt for the Calculator button sec in the scientific flyout keypad</comment>
   </data>
-  <data name="sechButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>双曲線正割</value>
-    <comment>Screen reader prompt for the Calculator button sech in the scientific flyout keypad</comment>
-  </data>
-  <data name="invsecButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>アーク正割</value>
-    <comment>Screen reader prompt for the Calculator button arc sec in the scientific flyout keypad</comment>
-  </data>
-  <data name="invsechButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>双曲線アーク正割</value>
-    <comment>Screen reader prompt for the Calculator button arc sec in the scientific flyout keypad</comment>
-  </data>
   <data name="cscButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>余割</value>
     <comment>Screen reader prompt for the Calculator button csc in the scientific flyout keypad</comment>
   </data>
-  <data name="cschButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>双曲線余割</value>
-    <comment>Screen reader prompt for the Calculator button csch in the scientific flyout keypad</comment>
-  </data>
-  <data name="invcscButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>アーク余割</value>
-    <comment>Screen reader prompt for the Calculator button arc csc in the scientific flyout keypad</comment>
-  </data>
-  <data name="invcschButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>双曲線アーク余割</value>
-    <comment>Screen reader prompt for the Calculator button arc csc in the scientific flyout keypad</comment>
-  </data>
   <data name="cotButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>余接</value>
     <comment>Screen reader prompt for the Calculator button cot in the scientific flyout keypad</comment>
-  </data>
-  <data name="cothButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>双曲線余接</value>
-    <comment>Screen reader prompt for the Calculator button coth in the scientific flyout keypad</comment>
-  </data>
-  <data name="invcotButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>アーク余接</value>
-    <comment>Screen reader prompt for the Calculator button arc cot in the scientific flyout keypad</comment>
-  </data>
-  <data name="invcothButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>双曲線アーク余接</value>
-    <comment>Screen reader prompt for the Calculator button arc coth in the scientific flyout keypad</comment>
   </data>
   <data name="floorButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>切り捨て</value>
@@ -3146,10 +2991,6 @@
   <data name="randButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>ランダム</value>
     <comment>Screen reader prompt for the Calculator button random in the scientific flyout keypad</comment>
-  </data>
-  <data name="absButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>絶対値</value>
-    <comment>Screen reader prompt for the Calculator button abs in the scientific flyout keypad</comment>
   </data>
   <data name="eulerButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>オイラー数</value>
@@ -3165,7 +3006,7 @@
   </data>
   <data name="nandButton.[using:CalculatorApp.Controls]CalculatorButton.AuditoryFeedback" xml:space="preserve">
     <value>否定論理積</value>
-    <comment>Auditory feedback for Screen Reader users. Users will hear "Display is 7 nand" when the button is pressed. NAND is a mathematical operation on two binary values.</comment>
+    <comment>Auditory feedback for screen reader users. Users will hear "Display is 7 nand" when the button is pressed. NAND is a mathematical operation on two binary values.</comment>
   </data>
   <data name="norButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>否定論理和</value>
@@ -3173,7 +3014,7 @@
   </data>
   <data name="norButton.[using:CalculatorApp.Controls]CalculatorButton.AuditoryFeedback" xml:space="preserve">
     <value>否定論理和</value>
-    <comment>Auditory feedback for Screen Reader users. Users will hear "Display is 7 nor" when the button is pressed. NAND is a mathematical operation on two binary values.</comment>
+    <comment>Auditory feedback for screen reader users. Users will hear "Display is 7 nor" when the button is pressed. NAND is a mathematical operation on two binary values.</comment>
   </data>
   <data name="rolCarryButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>キャリーで左回転</value>
@@ -3183,37 +3024,13 @@
     <value>キャリーで右回転</value>
     <comment>Screen reader prompt for the Calculator button ror with carry in the scientific flyout keypad</comment>
   </data>
-  <data name="lshLogicalButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>左シフト</value>
-    <comment>Screen reader prompt for the Calculator button lshLogical in the scientific flyout keypad</comment>
-  </data>
   <data name="lshLogicalButton.[using:CalculatorApp.Controls]CalculatorButton.AuditoryFeedback" xml:space="preserve">
     <value>左シフト</value>
-    <comment>Auditory feedback for Screen Reader users. Users will hear "Display is 7 left shift" when the button is pressed. NAND is a mathematical operation on two binary values.</comment>
-  </data>
-  <data name="rshLogicalButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>右シフト</value>
-    <comment>Screen reader prompt for the Calculator button rshLogical in the scientific flyout keypad</comment>
+    <comment>Auditory feedback for screen reader users. Users will hear "Display is 7 left shift" when the button is pressed. NAND is a mathematical operation on two binary values.</comment>
   </data>
   <data name="rshLogicalButton.[using:CalculatorApp.Controls]CalculatorButton.AuditoryFeedback" xml:space="preserve">
     <value>右シフト</value>
-    <comment>Auditory feedback for Screen Reader users. Users will hear "Display is 7 right shift" when the button is pressed. NAND is a mathematical operation on two binary values.</comment>
-  </data>
-  <data name="arithmeticShiftButton.Content" xml:space="preserve">
-    <value>算術シフト</value>
-    <comment>Label for a radio button that toggles arithmetic shift behavior for the shift operations.</comment>
-  </data>
-  <data name="logicalShiftButton.Content" xml:space="preserve">
-    <value>論理シフト</value>
-    <comment>Label for a radio button that toggles logical shift behavior for the shift operations.</comment>
-  </data>
-  <data name="rotateCircularButton.Content" xml:space="preserve">
-    <value>循環シフトの回転</value>
-    <comment>Label for a radio button that toggles rotate circular behavior for the shift operations.</comment>
-  </data>
-  <data name="rotateCarryShiftButton.Content" xml:space="preserve">
-    <value>キャリー循環シフトで回転</value>
-    <comment>Label for a radio button that toggles rotate circular with carry behavior for the shift operations.</comment>
+    <comment>Auditory feedback for screen reader users. Users will hear "Display is 7 right shift" when the button is pressed. NAND is a mathematical operation on two binary values.</comment>
   </data>
   <data name="cubeRootButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>立方根</value>
@@ -3235,14 +3052,6 @@
     <value>ビットシフト</value>
     <comment>Screen reader prompt for the square root button on the scientific operator keypad</comment>
   </data>
-  <data name="ScientificOperatorPanel.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>指数演算子パネル</value>
-    <comment>Screen reader prompt for the Scientific Operator Panels on the scientific operator keypad</comment>
-  </data>
-  <data name="ProgrammerOperatorPanel.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>プログラマー演算子パネル</value>
-    <comment>Screen reader prompt for the Programmer Operator Panels on the programmer operator keypad</comment>
-  </data>
   <data name="MostSignificantBit" xml:space="preserve">
     <value>最上位ビット</value>
     <comment>Used to describe the last bit of a binary number. Used in bit flip</comment>
@@ -3259,41 +3068,17 @@
     <value>表示を自動的に更新する (Ctrl + 0)</value>
     <comment>This is the tool tip automation name for the Calculator graph view button.</comment>
   </data>
-  <data name="graphViewButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>グラフ ビュー</value>
-    <comment>Screen reader prompt for the graph view button.</comment>
-  </data>
-  <data name="GraphViewAutomaticBestFitAnnouncement" xml:space="preserve">
-    <value>自動調整</value>
-    <comment>Announcement used in Graphing Calculator when graph view button is clicked and automatic best fit is set</comment>
-  </data>
-  <data name="GraphViewManualAdjustmentAnnouncement" xml:space="preserve">
-    <value>手動調整</value>
-    <comment>Announcement used in Graphing Calculator when graph view button is clicked and manual adjustment is set</comment>
-  </data>
   <data name="GridResetAnnouncement" xml:space="preserve">
     <value>グラフの表示がリセットされました</value>
     <comment>Announcement used in Graphing Calculator when graph view button is clicked and automatic best fit is set, resetting the graph</comment>
-  </data>
-  <data name="zoomInButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
-    <value>拡大 (Ctrl+プラス記号 (+) キー)</value>
-    <comment>This is the tool tip automation name for the Calculator zoom in button.</comment>
   </data>
   <data name="zoomInButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>拡大</value>
     <comment>Screen reader prompt for the zoom in button.</comment>
   </data>
-  <data name="zoomOutButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
-    <value>縮小 (Ctrl+マイナス記号 (-) キー)</value>
-    <comment>This is the tool tip automation name for the Calculator zoom out button.</comment>
-  </data>
   <data name="zoomOutButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>縮小</value>
     <comment>Screen reader prompt for the zoom out button.</comment>
-  </data>
-  <data name="EquationTextBoxAddPanel.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
-    <value>数式の追加</value>
-    <comment>Placeholder text for the equation input button</comment>
   </data>
   <data name="ShareActionErrorMessage" xml:space="preserve">
     <value>現時点では共有できません。</value>
@@ -3439,14 +3224,6 @@
     <value>ドメイン</value>
     <comment>Title for KeyGraphFeatures Domain Property</comment>
   </data>
-  <data name="HorizontalAsymptotes" xml:space="preserve">
-    <value>水平方向の漸近線</value>
-    <comment>Title for KeyGraphFeatures Horizontal Aysmptotes Property</comment>
-  </data>
-  <data name="InflectionPoints" xml:space="preserve">
-    <value>変曲点</value>
-    <comment>Title for KeyGraphFeatures Inflection Points Property</comment>
-  </data>
   <data name="KGFAnalysisNotSupported" xml:space="preserve">
     <value>分析はこの関数ではサポートされていません。</value>
     <comment>Error displayed when graph analysis is not supported or had an error.</comment>
@@ -3467,10 +3244,6 @@
     <value>単調性</value>
     <comment>Title for KeyGraphFeatures Monotonicity Property</comment>
   </data>
-  <data name="ObliqueAsymptotes" xml:space="preserve">
-    <value>斜め方向の漸近線</value>
-    <comment>Title for KeyGraphFeatures Oblique Asymptotes Property</comment>
-  </data>
   <data name="Parity" xml:space="preserve">
     <value>パリティ</value>
     <comment>Title for KeyGraphFeatures Parity Property</comment>
@@ -3482,10 +3255,6 @@
   <data name="Range" xml:space="preserve">
     <value>範囲</value>
     <comment>Title for KeyGraphFeatures Range Property</comment>
-  </data>
-  <data name="VerticalAsymptotes" xml:space="preserve">
-    <value>垂直方向の漸近線</value>
-    <comment>Title for KeyGraphFeatures Vertical Asymptotes Property</comment>
   </data>
   <data name="XIntercept" xml:space="preserve">
     <value>X-インターセプト</value>
@@ -3818,10 +3587,6 @@
     <value>グラフのオプション</value>
     <comment>This is the automation name text for the graph options button in Graphing Calculator</comment>
   </data>
-  <data name="GraphOptionsHeading.Text" xml:space="preserve">
-    <value>グラフのオプション</value>
-    <comment>Heading for the Graph Options flyout in Graphing mode.</comment>
-  </data>
   <data name="VariableAreaSettings.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>変数のオプション</value>
     <comment>Screen reader prompt for the variable settings toggle button</comment>
@@ -3829,30 +3594,6 @@
   <data name="VariableAreaSettings.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
     <value>変数のオプションを切り替える</value>
     <comment>Tool tip for the variable settings toggle button</comment>
-  </data>
-  <data name="LineThicknessBoxHeading.Text" xml:space="preserve">
-    <value>線の太さ</value>
-    <comment>Heading for the Graph Options flyout in Graphing mode.</comment>
-  </data>
-  <data name="LineOptionsHeading.Text" xml:space="preserve">
-    <value>線のオプション</value>
-    <comment>Heading for the equation style flyout in Graphing mode.</comment>
-  </data>
-  <data name="SmallLineWidthAutomationName" xml:space="preserve">
-    <value>線幅 (小)</value>
-    <comment>Automation name for line width setting</comment>
-  </data>
-  <data name="MediumLineWidthAutomationName" xml:space="preserve">
-    <value>線幅 (中)</value>
-    <comment>Automation name for line width setting</comment>
-  </data>
-  <data name="LargeLineWidthAutomationName" xml:space="preserve">
-    <value>線幅 (大)</value>
-    <comment>Automation name for line width setting</comment>
-  </data>
-  <data name="ExtraLargeLineWidthAutomationName" xml:space="preserve">
-    <value>線幅 (特大)</value>
-    <comment>Automation name for line width setting</comment>
   </data>
   <data name="mathRichEditBox.PlaceholderText" xml:space="preserve">
     <value>式を入力してください</value>
@@ -3878,54 +3619,6 @@
     <value>元に戻す</value>
     <comment>Undo menu item from the Equation TextBox</comment>
   </data>
-  <data name="selectAllEquationMenuItem.Text" xml:space="preserve">
-    <value>すべて選択</value>
-    <comment>Select all menu item from the Equation TextBox</comment>
-  </data>
-  <data name="EquationInputButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>関数入力リスト項目</value>
-    <comment>The automation name for the Equation Input ListView item that is shown when Calculator is in graphing mode.</comment>
-  </data>
-  <data name="EquationInputList.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>関数の入力リスト</value>
-    <comment>The automation name for the Equation Input ListView that is shown when Calculator is in graphing mode.</comment>
-  </data>
-  <data name="EquationInputPanel.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>関数の入力パネル</value>
-    <comment>The automation name for the Equation Input StackPanel that is shown when Calculator is in graphing mode.</comment>
-  </data>
-  <data name="VariableStackPanel.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>可変パネル</value>
-    <comment>The automation name for the Variable StackPanel that is shown when Calculator is in graphing mode.</comment>
-  </data>
-  <data name="VariableListView.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>可変リスト</value>
-    <comment>The automation name for the Variable ListView that is shown when Calculator is in graphing mode.</comment>
-  </data>
-  <data name="VariableListViewItem" xml:space="preserve">
-    <value>可変 %1 リスト項目</value>
-    <comment>The automation name for the Variable ListViewItem that is shown when Calculator is in graphing mode.</comment>
-  </data>
-  <data name="VariableValueTextBox.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>変数値のテキスト ボックス</value>
-    <comment>The automation name for the Variable Value Textbox that is shown when Calculator is in graphing mode.</comment>
-  </data>
-  <data name="VariableValueSlider.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>変数値のスライダー</value>
-    <comment>The automation name for the Variable Value Slider that is shown when Calculator is in graphing mode.</comment>
-  </data>
-  <data name="VariableMinTextBox.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>変数の最小値のテキスト ボックス</value>
-    <comment>The automation name for the Variable Min Value Textbox that is shown when Calculator is in graphing mode.</comment>
-  </data>
-  <data name="VariableStepTextBox.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>変数の増分値のテキストボックス</value>
-    <comment>The automation name for the Variable Step Textbox that is shown when Calculator is in graphing mode.</comment>
-  </data>
-  <data name="VariableMaxTextBox.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>変数の最大値のテキスト ボックス</value>
-    <comment>The automation name for the Variable Max Value Textbox that is shown when Calculator is in graphing mode.</comment>
-  </data>
   <data name="solidLineStyleAutomationName" xml:space="preserve">
     <value>実線/点線スタイル</value>
     <comment>Name of the solid line style for a graphed equation</comment>
@@ -3937,10 +3630,6 @@
   <data name="dashLineStyleAutomationName" xml:space="preserve">
     <value>二点鎖線のスタイル</value>
     <comment>Name of the dashed line style for a graphed equation</comment>
-  </data>
-  <data name="equationColor1AutomationName" xml:space="preserve">
-    <value>ネイビー ブルー</value>
-    <comment>Name of color in the color picker</comment>
   </data>
   <data name="equationColor2AutomationName" xml:space="preserve">
     <value>シーフォーム</value>
@@ -3954,14 +3643,6 @@
     <value>緑</value>
     <comment>Name of color in the color picker</comment>
   </data>
-  <data name="equationColor5AutomationName" xml:space="preserve">
-    <value>ミントグリーン</value>
-    <comment>Name of color in the color picker</comment>
-  </data>
-  <data name="equationColor6AutomationName" xml:space="preserve">
-    <value>濃い緑</value>
-    <comment>Name of color in the color picker</comment>
-  </data>
   <data name="equationColor7AutomationName" xml:space="preserve">
     <value>チャコール</value>
     <comment>Name of color in the color picker</comment>
@@ -3970,20 +3651,8 @@
     <value>赤</value>
     <comment>Name of color in the color picker</comment>
   </data>
-  <data name="equationColor9AutomationName" xml:space="preserve">
-    <value>プラム ライト</value>
-    <comment>Name of color in the color picker</comment>
-  </data>
   <data name="equationColor10AutomationName" xml:space="preserve">
     <value>赤紫</value>
-    <comment>Name of color in the color picker</comment>
-  </data>
-  <data name="equationColor11AutomationName" xml:space="preserve">
-    <value>イエロー ゴールド</value>
-    <comment>Name of color in the color picker</comment>
-  </data>
-  <data name="equationColor12AutomationName" xml:space="preserve">
-    <value>ブライト オレンジ</value>
     <comment>Name of color in the color picker</comment>
   </data>
   <data name="equationColor13AutomationName" xml:space="preserve">
@@ -4014,10 +3683,6 @@
     <value>色 4</value>
     <comment>Name of color in the color picker</comment>
   </data>
-  <data name="GraphThemeHeading.Text" xml:space="preserve">
-    <value>グラフのテーマ</value>
-    <comment>Graph settings heading for the theme options</comment>
-  </data>
   <data name="AlwaysLightTheme.Content" xml:space="preserve">
     <value>常に明るい</value>
     <comment>Graph settings option to set graph to light theme</comment>
@@ -4041,10 +3706,6 @@
   <data name="FunctionRemovedAnnouncement" xml:space="preserve">
     <value>機能を削除しました</value>
     <comment>Announcement used in Graphing Calculator when a function is removed from the function list</comment>
-  </data>
-  <data name="KGFEquationTextBox.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>関数分析の数式ボックス</value>
-    <comment>This is the automation name text for the equation box in the function analysis panel</comment>
   </data>
   <data name="graphingEqualButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>等号</value>
@@ -4082,14 +3743,6 @@
     <value>送信</value>
     <comment>Screen reader prompt for the submit button on the graphing calculator operator keypad</comment>
   </data>
-  <data name="FunctionAnalysisGrid.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>関数分析</value>
-    <comment>Screen reader prompt for the function analysis grid</comment>
-  </data>
-  <data name="GraphSettingsGrid.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>グラフのオプション</value>
-    <comment>Screen reader prompt for the graph options panel</comment>
-  </data>
   <data name="DockPanel_HistoryMemoryLists" xml:space="preserve">
     <value>履歴とメモリの一覧</value>
     <comment>Automation name for the group of controls for history and memory lists.</comment>
@@ -4110,22 +3763,6 @@
     <value>計算機を全画面表示に戻す</value>
     <comment>Announcement to indicate calculator window is now back to full view.</comment>
   </data>
-  <data name="arithmeticShiftButtonSelected" xml:space="preserve">
-    <value>算術シフトが選択されています</value>
-    <comment>Label for a radio button that toggles arithmetic shift behavior for the shift operations.</comment>
-  </data>
-  <data name="logicalShiftButtonSelected" xml:space="preserve">
-    <value>論理シフトが選択されています</value>
-    <comment>Label for a radio button that toggles logical shift behavior for the shift operations.</comment>
-  </data>
-  <data name="rotateCircularButtonSelected" xml:space="preserve">
-    <value>ローテートの循環シフトが選択されています</value>
-    <comment>Label for a radio button that toggles rotate circular behavior for the shift operations.</comment>
-  </data>
-  <data name="rotateCarryShiftButtonSelected" xml:space="preserve">
-    <value>キャリー付きローテートの循環シフトが選択されています</value>
-    <comment>Label for a radio button that toggles rotate circular with carry behavior for the shift operations.</comment>
-  </data>
   <data name="SettingsHeader.Text" xml:space="preserve">
     <value>設定</value>
     <comment>Header text of Settings page</comment>
@@ -4136,11 +3773,11 @@
   </data>
   <data name="SettingsAppThemeTitle.Text" xml:space="preserve">
     <value>アプリ テーマ</value>
-    <comment>Title of App Theme expander</comment>
+    <comment>Title of App theme expander</comment>
   </data>
   <data name="SettingsAppThemeDescription.Text" xml:space="preserve">
     <value>表示するアプリ テーマを選択します</value>
-    <comment>Description of App Theme expander</comment>
+    <comment>Description of App theme expander</comment>
   </data>
   <data name="LightThemeRadioButton.Content" xml:space="preserve">
     <value>白</value>
@@ -4157,13 +3794,5 @@
   <data name="TitleBarBackButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>戻る</value>
     <comment>Screen reader prompt for the Back button in title bar to back to main page</comment>
-  </data>
-  <data name="SettingsPageOpenedAnnouncement" xml:space="preserve">
-    <value>設定ページ</value>
-    <comment>Announcement used when Settings page is opened</comment>
-  </data>
-  <data name="AppThemeExpander.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>アプリのテーマの設定</value>
-    <comment>Screen reader prompt for the App theme Setting radio buttons group</comment>
   </data>
 </root>

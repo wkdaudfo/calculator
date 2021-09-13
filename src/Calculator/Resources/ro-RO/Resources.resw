@@ -481,18 +481,6 @@
     <value>Standard</value>
     <comment>Label for a control that activates standard mode calculator layout.</comment>
   </data>
-  <data name="converterModeButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Mod convertor</value>
-    <comment>Screen reader prompt for a control that activates the unit converter mode.</comment>
-  </data>
-  <data name="scientificModeButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Mod științific</value>
-    <comment>Screen reader prompt for a control that activates scientific mode calculator layout</comment>
-  </data>
-  <data name="standardModeButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Mod standard</value>
-    <comment>Screen reader prompt for a control that activates standard mode calculator layout.</comment>
-  </data>
   <data name="ClearHistory.Name" xml:space="preserve">
     <value>Goliți tot istoricul</value>
     <comment>"ClearHistory" used on the calculator history pane that stores the calculation history.</comment>
@@ -593,10 +581,6 @@
     <value>Istoric golit</value>
     <comment>Screen reader prompt for the Calculator History Clear button, when the button is invoked.</comment>
   </data>
-  <data name="HideHistory.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Ascundere istoric</value>
-    <comment>Screen reader prompt for the Calculator History Hide button</comment>
-  </data>
   <data name="HistoryButton_Open" xml:space="preserve">
     <value>Deschidere fișă istoric</value>
     <comment>Screen reader prompt for the Calculator History button, when the flyout is closed.</comment>
@@ -604,10 +588,6 @@
   <data name="HistoryButton_Close" xml:space="preserve">
     <value>Închidere fișă istoric</value>
     <comment>Screen reader prompt for the Calculator History button, when the flyout is open.</comment>
-  </data>
-  <data name="memButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Stocare în memorie</value>
-    <comment>Screen reader prompt for the Calculator Memory button</comment>
   </data>
   <data name="memButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
     <value>Stocare în memorie (Ctrl+M)</value>
@@ -621,25 +601,13 @@
     <value>Memorie golită</value>
     <comment>Screen reader prompt for the Calculator Clear Memory button, when the button is invoked.</comment>
   </data>
-  <data name="MemRecall.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Reapelare din memorie</value>
-    <comment>Screen reader prompt for the Calculator Memory Recall button</comment>
-  </data>
   <data name="MemRecall.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
     <value>Reapelare din memorie (Ctrl+R)</value>
     <comment>This is the tool tip automation name for the Memory Recall (MR) button.</comment>
   </data>
-  <data name="MemPlus.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Adăugare în memorie</value>
-    <comment>Screen reader prompt for the Calculator Memory Add button</comment>
-  </data>
   <data name="MemPlus.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
     <value>Adunare în memorie (Ctrl+P)</value>
     <comment>This is the tool tip automation name for the Memory Add (M+) button.</comment>
-  </data>
-  <data name="MemMinus.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Scădere din memorie</value>
-    <comment>Screen reader prompt for the Calculator Memory Subtract button</comment>
   </data>
   <data name="MemMinus.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
     <value>Scădere din memorie (Ctrl+Q)</value>
@@ -845,10 +813,6 @@
     <value>Tastatură completă</value>
     <comment>Screen reader prompt for the Calculator numberPad button</comment>
   </data>
-  <data name="decimalSeparatorButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Separator zecimale</value>
-    <comment>Screen reader prompt for the "." button</comment>
-  </data>
   <data name="clearEntryButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Ștergere intrare</value>
     <comment>Screen reader prompt for the "CE" button</comment>
@@ -869,10 +833,6 @@
     <value>Egal cu</value>
     <comment>Screen reader prompt for the equals button on the scientific operator keypad</comment>
   </data>
-  <data name="shiftButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Funcție inversă</value>
-    <comment>Screen Reader prompt for the shift button on the number pad in scientific mode.</comment>
-  </data>
   <data name="minusButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Minus</value>
     <comment>Screen reader prompt for the minus button on the number pad</comment>
@@ -892,14 +852,6 @@
   <data name="percentButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Procent</value>
     <comment>Screen reader prompt for the percent button on the scientific operator keypad</comment>
-  </data>
-  <data name="negateButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Pozitiv negativ</value>
-    <comment>Screen reader prompt for the negate button on the scientific operator keypad</comment>
-  </data>
-  <data name="converterNegateButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Pozitiv negativ</value>
-    <comment>Screen reader prompt for the negate button on the converter operator keypad</comment>
   </data>
   <data name="invertButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Invers</value>
@@ -948,18 +900,6 @@
   <data name="tanButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Tangentă</value>
     <comment>Screen reader prompt for the Calculator tan button  on the scientific operator keypad</comment>
-  </data>
-  <data name="sinhButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Sinus hiperbolic</value>
-    <comment>Screen reader prompt for the Calculator sinh button  on the scientific operator keypad</comment>
-  </data>
-  <data name="coshButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Cosinus hiperbolic</value>
-    <comment>Screen reader prompt for the Calculator cosh button  on the scientific operator keypad</comment>
-  </data>
-  <data name="tanhButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Tangentă hiperbolică</value>
-    <comment>Screen reader prompt for the Calculator tanh button  on the scientific operator keypad</comment>
   </data>
   <data name="xpower2Button.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Pătrat</value>
@@ -1025,10 +965,6 @@
     <value>Exponențială</value>
     <comment>Screen reader for the exp button on the scientific operator keypad</comment>
   </data>
-  <data name="dmsButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Grad Minut Secundă</value>
-    <comment>Screen reader for the exp button on the scientific operator keypad</comment>
-  </data>
   <data name="degreesButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Grade</value>
     <comment>Screen reader for the exp button on the scientific operator keypad</comment>
@@ -1056,14 +992,6 @@
   <data name="radButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Comutare radiani</value>
     <comment>This is the Deg button's Rad mode automation name on the scientific operator keypad. Should read as "Radians toggle button".</comment>
-  </data>
-  <data name="FlyoutNav.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Lista verticală Mod</value>
-    <comment>Screen reader prompt for the Mode dropdown field in Snapped and Portrait modes.</comment>
-  </data>
-  <data name="Categories.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Lista verticală Categorii</value>
-    <comment>Screen reader prompt for the Categories dropdown field.</comment>
   </data>
   <data name="EnterAlwaysOnTopButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Păstrați în partea de sus</value>
@@ -1140,10 +1068,6 @@
   <data name="CategoryName_TemperatureText" xml:space="preserve">
     <value>Temperatură</value>
     <comment>Unit conversion category name called Temperature</comment>
-  </data>
-  <data name="CategoryName_WeightText" xml:space="preserve">
-    <value>Greutate și masă</value>
-    <comment>Unit conversion category name called Weight and Mass. Note that this category includes units of both mass and weight. People use the word "weight" in everyday life for measuring things such as food and people. In case a language has same word for "weight" and "mass" please use one word only.</comment>
   </data>
   <data name="CategoryName_PressureText" xml:space="preserve">
     <value>Presiune</value>
@@ -1837,10 +1761,6 @@
     <value>Nanometri</value>
     <comment>A measurement unit for length. (Please choose the most appropriate plural form to fit any number between 0 and 999,999,999,999,999)</comment>
   </data>
-  <data name="UnitName_NauticalMile" xml:space="preserve">
-    <value>Mile nautice</value>
-    <comment>A measurement unit for length. (Please choose the most appropriate plural form to fit any number between 0 and 999,999,999,999,999)</comment>
-  </data>
   <data name="UnitName_Petabit" xml:space="preserve">
     <value>Petabiți</value>
     <comment>A measurement unit for data. (Please choose the most appropriate plural form to fit any number between 0 and 999,999,999,999,999)</comment>
@@ -2285,10 +2205,6 @@
     <value>mingi de fotbal</value>
     <comment>A soccer ball, used as a comparison measurement unit for weight. (Please choose the most appropriate plural form to fit any number between 0 and 999,999,999,999,999)</comment>
   </data>
-  <data name="MemoryItemHelpText" xml:space="preserve">
-    <value>Element memorie</value>
-    <comment>Help text used by accessibility tools to indicate that an item in the list of memory values is a memory item.</comment>
-  </data>
   <data name="SupplementaryUnit_AutomationName" xml:space="preserve">
     <value>%1 %2</value>
     <comment>This string is what is read by Narrator, and other screen readers, for the supplementary value at the bottom of the converter view, %1 = the value of the supplementary unit (i.e. 0.5), %2 = the unit itself (i.e. inches, meters, etc)</comment>
@@ -2418,11 +2334,11 @@
     <comment>A measurement unit for data. (Please choose the most appropriate plural form to fit any number between 0 and 999,999,999,999,999)</comment>
   </data>
   <data name="UnitName_Yottabit" xml:space="preserve">
-    <value>Yottabit</value>
+    <value>Yottabiți</value>
     <comment>A measurement unit for data. (Please choose the most appropriate plural form to fit any number between 0 and 999,999,999,999,999)</comment>
   </data>
   <data name="UnitName_Yottabyte" xml:space="preserve">
-    <value>Yottabyți</value>
+    <value>Yottabytes</value>
     <comment>A measurement unit for data. (Please choose the most appropriate plural form to fit any number between 0 and 999,999,999,999,999)</comment>
   </data>
   <data name="UnitName_Yobibits" xml:space="preserve">
@@ -2433,12 +2349,9 @@
     <value>Yobibyți</value>
     <comment>A measurement unit for data. (Please choose the most appropriate plural form to fit any number between 0 and 999,999,999,999,999)</comment>
   </data>
-  <data name="DateCalculationModeText" xml:space="preserve">
-    <value>Calcul dată</value>
-  </data>
   <data name="DateCalculationOption.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Mod calcul</value>
-    <comment>Automation label for the Date Calculation Mode combobox. Users will hear "Calculation mode combobox".</comment>
+    <comment>Automation label for the Date calculation Mode combobox. Users will hear "Calculation mode combobox".</comment>
   </data>
   <data name="AddOption.Content" xml:space="preserve">
     <value>Adunare</value>
@@ -2454,7 +2367,7 @@
   </data>
   <data name="Date_DifferenceOption.Content" xml:space="preserve">
     <value>Diferență între date</value>
-    <comment>Date Difference option</comment>
+    <comment>Date difference option</comment>
   </data>
   <data name="DaysLabel.Text" xml:space="preserve">
     <value>Zile</value>
@@ -2529,11 +2442,7 @@
   </data>
   <data name="HeaderAutomationName_Converter" xml:space="preserve">
     <value>Mod convertor %1</value>
-    <comment>{Locked='%1'} Automation name for when the mode header is focused. %1 = the current converter mode: "Weight and Mass", "Energy", "Volume", etc.</comment>
-  </data>
-  <data name="HeaderAutomationName_Date" xml:space="preserve">
-    <value>Mod calcul dată</value>
-    <comment>Automation name for when the mode header is focused and the current mode is Date Calculation.</comment>
+    <comment>{Locked='%1'} Automation name for when the mode header is focused. %1 = the current converter mode: "Weight and mass", "Energy", "Volume", etc.</comment>
   </data>
   <data name="DockPanel.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Listele Istoric și Memorie</value>
@@ -2613,51 +2522,51 @@
   </data>
   <data name="divideButton.[using:CalculatorApp.Controls]CalculatorButton.AuditoryFeedback" xml:space="preserve">
     <value>împărțit la</value>
-    <comment>Auditory feedback for Screen Reader users. Users will hear "Display is 7 divided by" when the button is pressed.</comment>
+    <comment>Auditory feedback for screen reader users. Users will hear "Display is 7 divided by" when the button is pressed.</comment>
   </data>
   <data name="multiplyButton.[using:CalculatorApp.Controls]CalculatorButton.AuditoryFeedback" xml:space="preserve">
     <value>ori</value>
-    <comment>Auditory feedback for Screen Reader users. Users will hear "Display is 7 times" when the button is pressed.</comment>
+    <comment>Auditory feedback for screen reader users. Users will hear "Display is 7 times" when the button is pressed.</comment>
   </data>
   <data name="minusButton.[using:CalculatorApp.Controls]CalculatorButton.AuditoryFeedback" xml:space="preserve">
     <value>minus</value>
-    <comment>Auditory feedback for Screen Reader users. Users will hear "Display is 7 minus" when the button is pressed.</comment>
+    <comment>Auditory feedback for screen reader users. Users will hear "Display is 7 minus" when the button is pressed.</comment>
   </data>
   <data name="plusButton.[using:CalculatorApp.Controls]CalculatorButton.AuditoryFeedback" xml:space="preserve">
     <value>plus</value>
-    <comment>Auditory feedback for Screen Reader users. Users will hear "Display is 7 plus" when the button is pressed.</comment>
+    <comment>Auditory feedback for screen reader users. Users will hear "Display is 7 plus" when the button is pressed.</comment>
   </data>
   <data name="powerButton.[using:CalculatorApp.Controls]CalculatorButton.AuditoryFeedback" xml:space="preserve">
     <value>la puterea</value>
-    <comment>Auditory feedback for Screen Reader users. Users will hear "Display is 7 to the power of" when the button is pressed.</comment>
+    <comment>Auditory feedback for screen reader users. Users will hear "Display is 7 to the power of" when the button is pressed.</comment>
   </data>
   <data name="ySquareRootButton.[using:CalculatorApp.Controls]CalculatorButton.AuditoryFeedback" xml:space="preserve">
     <value>radical de ordinul y</value>
-    <comment>Auditory feedback for Screen Reader users. Users will hear "Display is 7 y root" when the button is pressed.</comment>
+    <comment>Auditory feedback for screen reader users. Users will hear "Display is 7 y root" when the button is pressed.</comment>
   </data>
   <data name="modButton.[using:CalculatorApp.Controls]CalculatorButton.AuditoryFeedback" xml:space="preserve">
     <value>mod</value>
-    <comment>Auditory feedback for Screen Reader users. Users will hear "Display is 7 mod" when the button is pressed.</comment>
+    <comment>Auditory feedback for screen reader users. Users will hear "Display is 7 mod" when the button is pressed.</comment>
   </data>
   <data name="lshButton.[using:CalculatorApp.Controls]CalculatorButton.AuditoryFeedback" xml:space="preserve">
     <value>deplasare la stânga</value>
-    <comment>Auditory feedback for Screen Reader users. Users will hear "Display is 7 left shift" when the button is pressed.</comment>
+    <comment>Auditory feedback for screen reader users. Users will hear "Display is 7 left shift" when the button is pressed.</comment>
   </data>
   <data name="rshButton.[using:CalculatorApp.Controls]CalculatorButton.AuditoryFeedback" xml:space="preserve">
     <value>deplasare la dreapta</value>
-    <comment>Auditory feedback for Screen Reader users. Users will hear "Display is 7 right shift" when the button is pressed.</comment>
+    <comment>Auditory feedback for screen reader users. Users will hear "Display is 7 right shift" when the button is pressed.</comment>
   </data>
   <data name="orButton.[using:CalculatorApp.Controls]CalculatorButton.AuditoryFeedback" xml:space="preserve">
     <value>sau</value>
-    <comment>Auditory feedback for Screen Reader users. Users will hear "Display is 7 or" when the button is pressed. OR is a mathematical operation on two binary values.</comment>
+    <comment>Auditory feedback for screen reader users. Users will hear "Display is 7 or" when the button is pressed. OR is a mathematical operation on two binary values.</comment>
   </data>
   <data name="xorButton.[using:CalculatorApp.Controls]CalculatorButton.AuditoryFeedback" xml:space="preserve">
     <value>x sau</value>
-    <comment>Auditory feedback for Screen Reader users. Users will hear "Display is 7 x or" when the button is pressed. XOR is a mathematical operation on two binary values. Here the feedback is "x or" in order to get the correct pronunciation.</comment>
+    <comment>Auditory feedback for screen reader users. Users will hear "Display is 7 x or" when the button is pressed. XOR is a mathematical operation on two binary values. Here the feedback is "x or" in order to get the correct pronunciation.</comment>
   </data>
   <data name="andButton.[using:CalculatorApp.Controls]CalculatorButton.AuditoryFeedback" xml:space="preserve">
     <value>şi</value>
-    <comment>Auditory feedback for Screen Reader users. Users will hear "Display is 7 and" when the button is pressed. AND is a mathematical operation on two binary values.</comment>
+    <comment>Auditory feedback for screen reader users. Users will hear "Display is 7 and" when the button is pressed. AND is a mathematical operation on two binary values.</comment>
   </data>
   <data name="CurrencyFromToRatioFormat" xml:space="preserve">
     <value>%1 %2 = %3 %4</value>
@@ -2975,18 +2884,6 @@
     <value>cotangentă inversă hiperbolică</value>
     <comment>Name for the inverse hyperbolic cotangent function. Used by screen readers.</comment>
   </data>
-  <data name="CubeRoot" xml:space="preserve">
-    <value>Rădăcină cubică</value>
-    <comment>Name for the cube root function. Used by screen readers.</comment>
-  </data>
-  <data name="Logy" xml:space="preserve">
-    <value>Logaritm bază</value>
-    <comment>Name for the logbasey function. Used by screen readers.</comment>
-  </data>
-  <data name="AbsoluteValue" xml:space="preserve">
-    <value>Valoare absolută</value>
-    <comment>Name for the absolute value function. Used by screen readers.</comment>
-  </data>
   <data name="LeftShift" xml:space="preserve">
     <value>deplasare la stânga</value>
     <comment>Name for the programmer function that shifts bits to the left. Used by screen readers.</comment>
@@ -3039,14 +2936,6 @@
     <value>De la</value>
     <comment>From Date Header for AddSubtract Date Picker</comment>
   </data>
-  <data name="CalculationResultScrollLeft.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Derulați rezultatul calculului la stânga</value>
-    <comment>Automation label for the "Scroll Left" button that appears when a calculation result is too large to fit in calculation result text box.</comment>
-  </data>
-  <data name="CalculationResultScrollRight.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Derulați rezultatul calculului la dreapta</value>
-    <comment>Automation label for the "Scroll Right" button that appears when a calculation result is too large to fit in calculation result text box.</comment>
-  </data>
   <data name="CalculationFailed" xml:space="preserve">
     <value>Calcul nereușit</value>
     <comment>Text displayed when the application is not able to do a calculation</comment>
@@ -3075,14 +2964,6 @@
     <value>Pe biți</value>
     <comment>Displayed on the button that contains a flyout for the bitwise functions in programmer mode.</comment>
   </data>
-  <data name="bitShiftButton.Text" xml:space="preserve">
-    <value>Deplasare pe biți</value>
-    <comment>Displayed on the button that contains a flyout for the bit shift functions in programmer mode.</comment>
-  </data>
-  <data name="trigShiftButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Funcție inversă</value>
-    <comment>Screen Reader prompt for the shift button in the trig flyout in scientific mode.</comment>
-  </data>
   <data name="hypButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Funcție hiperbolică</value>
     <comment>Screen reader prompt for the Calculator button HYP in the scientific flyout keypad</comment>
@@ -3091,49 +2972,13 @@
     <value>Secantă</value>
     <comment>Screen reader prompt for the Calculator button sec in the scientific flyout keypad</comment>
   </data>
-  <data name="sechButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Secantă hiperbolică</value>
-    <comment>Screen reader prompt for the Calculator button sech in the scientific flyout keypad</comment>
-  </data>
-  <data name="invsecButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Arcsecantă</value>
-    <comment>Screen reader prompt for the Calculator button arc sec in the scientific flyout keypad</comment>
-  </data>
-  <data name="invsechButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Arcsecantă hiperbolică</value>
-    <comment>Screen reader prompt for the Calculator button arc sec in the scientific flyout keypad</comment>
-  </data>
   <data name="cscButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Cosecantă</value>
     <comment>Screen reader prompt for the Calculator button csc in the scientific flyout keypad</comment>
   </data>
-  <data name="cschButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Cosecantă hiperbolică</value>
-    <comment>Screen reader prompt for the Calculator button csch in the scientific flyout keypad</comment>
-  </data>
-  <data name="invcscButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Arccosecantă</value>
-    <comment>Screen reader prompt for the Calculator button arc csc in the scientific flyout keypad</comment>
-  </data>
-  <data name="invcschButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Arccosecantă hiperbolică</value>
-    <comment>Screen reader prompt for the Calculator button arc csc in the scientific flyout keypad</comment>
-  </data>
   <data name="cotButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Cotangentă</value>
     <comment>Screen reader prompt for the Calculator button cot in the scientific flyout keypad</comment>
-  </data>
-  <data name="cothButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Cotangentă hiperbolică</value>
-    <comment>Screen reader prompt for the Calculator button coth in the scientific flyout keypad</comment>
-  </data>
-  <data name="invcotButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Arccotangentă</value>
-    <comment>Screen reader prompt for the Calculator button arc cot in the scientific flyout keypad</comment>
-  </data>
-  <data name="invcothButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Arccotangentă hiperbolică</value>
-    <comment>Screen reader prompt for the Calculator button arc coth in the scientific flyout keypad</comment>
   </data>
   <data name="floorButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Rotunjire în minus</value>
@@ -3146,10 +2991,6 @@
   <data name="randButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Aleator</value>
     <comment>Screen reader prompt for the Calculator button random in the scientific flyout keypad</comment>
-  </data>
-  <data name="absButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Valoare absolută</value>
-    <comment>Screen reader prompt for the Calculator button abs in the scientific flyout keypad</comment>
   </data>
   <data name="eulerButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Numărul lui Euler</value>
@@ -3165,7 +3006,7 @@
   </data>
   <data name="nandButton.[using:CalculatorApp.Controls]CalculatorButton.AuditoryFeedback" xml:space="preserve">
     <value>N-și</value>
-    <comment>Auditory feedback for Screen Reader users. Users will hear "Display is 7 nand" when the button is pressed. NAND is a mathematical operation on two binary values.</comment>
+    <comment>Auditory feedback for screen reader users. Users will hear "Display is 7 nand" when the button is pressed. NAND is a mathematical operation on two binary values.</comment>
   </data>
   <data name="norButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>N-sau</value>
@@ -3173,7 +3014,7 @@
   </data>
   <data name="norButton.[using:CalculatorApp.Controls]CalculatorButton.AuditoryFeedback" xml:space="preserve">
     <value>N-sau</value>
-    <comment>Auditory feedback for Screen Reader users. Users will hear "Display is 7 nor" when the button is pressed. NAND is a mathematical operation on two binary values.</comment>
+    <comment>Auditory feedback for screen reader users. Users will hear "Display is 7 nor" when the button is pressed. NAND is a mathematical operation on two binary values.</comment>
   </data>
   <data name="rolCarryButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Rotire la stânga cu transport</value>
@@ -3183,37 +3024,13 @@
     <value>Rotire la dreapta cu transport</value>
     <comment>Screen reader prompt for the Calculator button ror with carry in the scientific flyout keypad</comment>
   </data>
-  <data name="lshLogicalButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Deplasare la stânga</value>
-    <comment>Screen reader prompt for the Calculator button lshLogical in the scientific flyout keypad</comment>
-  </data>
   <data name="lshLogicalButton.[using:CalculatorApp.Controls]CalculatorButton.AuditoryFeedback" xml:space="preserve">
     <value>Deplasare la stânga</value>
-    <comment>Auditory feedback for Screen Reader users. Users will hear "Display is 7 left shift" when the button is pressed. NAND is a mathematical operation on two binary values.</comment>
-  </data>
-  <data name="rshLogicalButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Deplasare la dreapta</value>
-    <comment>Screen reader prompt for the Calculator button rshLogical in the scientific flyout keypad</comment>
+    <comment>Auditory feedback for screen reader users. Users will hear "Display is 7 left shift" when the button is pressed. NAND is a mathematical operation on two binary values.</comment>
   </data>
   <data name="rshLogicalButton.[using:CalculatorApp.Controls]CalculatorButton.AuditoryFeedback" xml:space="preserve">
     <value>Deplasare la dreapta</value>
-    <comment>Auditory feedback for Screen Reader users. Users will hear "Display is 7 right shift" when the button is pressed. NAND is a mathematical operation on two binary values.</comment>
-  </data>
-  <data name="arithmeticShiftButton.Content" xml:space="preserve">
-    <value>Deplasare aritmetică</value>
-    <comment>Label for a radio button that toggles arithmetic shift behavior for the shift operations.</comment>
-  </data>
-  <data name="logicalShiftButton.Content" xml:space="preserve">
-    <value>Deplasare logică</value>
-    <comment>Label for a radio button that toggles logical shift behavior for the shift operations.</comment>
-  </data>
-  <data name="rotateCircularButton.Content" xml:space="preserve">
-    <value>Deplasare rotire circulară</value>
-    <comment>Label for a radio button that toggles rotate circular behavior for the shift operations.</comment>
-  </data>
-  <data name="rotateCarryShiftButton.Content" xml:space="preserve">
-    <value>Deplasare prin rotire cu transport circular</value>
-    <comment>Label for a radio button that toggles rotate circular with carry behavior for the shift operations.</comment>
+    <comment>Auditory feedback for screen reader users. Users will hear "Display is 7 right shift" when the button is pressed. NAND is a mathematical operation on two binary values.</comment>
   </data>
   <data name="cubeRootButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Rădăcină cubică</value>
@@ -3235,14 +3052,6 @@
     <value>Deplasarebiți</value>
     <comment>Screen reader prompt for the square root button on the scientific operator keypad</comment>
   </data>
-  <data name="ScientificOperatorPanel.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Panouri de operatori științifici</value>
-    <comment>Screen reader prompt for the Scientific Operator Panels on the scientific operator keypad</comment>
-  </data>
-  <data name="ProgrammerOperatorPanel.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Panouri de operatori pentru programatori</value>
-    <comment>Screen reader prompt for the Programmer Operator Panels on the programmer operator keypad</comment>
-  </data>
   <data name="MostSignificantBit" xml:space="preserve">
     <value>bitul cel mai semnificativ</value>
     <comment>Used to describe the last bit of a binary number. Used in bit flip</comment>
@@ -3259,41 +3068,17 @@
     <value>Reîmprospătare automată a vizualizării (Ctrl + 0)</value>
     <comment>This is the tool tip automation name for the Calculator graph view button.</comment>
   </data>
-  <data name="graphViewButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Vizualizare graf</value>
-    <comment>Screen reader prompt for the graph view button.</comment>
-  </data>
-  <data name="GraphViewAutomaticBestFitAnnouncement" xml:space="preserve">
-    <value>Cea mai bună potrivire automată</value>
-    <comment>Announcement used in Graphing Calculator when graph view button is clicked and automatic best fit is set</comment>
-  </data>
-  <data name="GraphViewManualAdjustmentAnnouncement" xml:space="preserve">
-    <value>Ajustare manuală</value>
-    <comment>Announcement used in Graphing Calculator when graph view button is clicked and manual adjustment is set</comment>
-  </data>
   <data name="GridResetAnnouncement" xml:space="preserve">
     <value>Vizualizarea grafic a fost resetată</value>
     <comment>Announcement used in Graphing Calculator when graph view button is clicked and automatic best fit is set, resetting the graph</comment>
-  </data>
-  <data name="zoomInButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
-    <value>Mărire (Ctrl + plus)</value>
-    <comment>This is the tool tip automation name for the Calculator zoom in button.</comment>
   </data>
   <data name="zoomInButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Mărire</value>
     <comment>Screen reader prompt for the zoom in button.</comment>
   </data>
-  <data name="zoomOutButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
-    <value>Micșorare (Ctrl + minus)</value>
-    <comment>This is the tool tip automation name for the Calculator zoom out button.</comment>
-  </data>
   <data name="zoomOutButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Micșorare</value>
     <comment>Screen reader prompt for the zoom out button.</comment>
-  </data>
-  <data name="EquationTextBoxAddPanel.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
-    <value>Adăugați o ecuație</value>
-    <comment>Placeholder text for the equation input button</comment>
   </data>
   <data name="ShareActionErrorMessage" xml:space="preserve">
     <value>Nu se poate partaja în acest moment.</value>
@@ -3439,14 +3224,6 @@
     <value>Domeniu</value>
     <comment>Title for KeyGraphFeatures Domain Property</comment>
   </data>
-  <data name="HorizontalAsymptotes" xml:space="preserve">
-    <value>Asimptote orizontale</value>
-    <comment>Title for KeyGraphFeatures Horizontal Aysmptotes Property</comment>
-  </data>
-  <data name="InflectionPoints" xml:space="preserve">
-    <value>Puncte de inflexiune</value>
-    <comment>Title for KeyGraphFeatures Inflection Points Property</comment>
-  </data>
   <data name="KGFAnalysisNotSupported" xml:space="preserve">
     <value>Analiza nu este acceptată pentru această funcție.</value>
     <comment>Error displayed when graph analysis is not supported or had an error.</comment>
@@ -3467,10 +3244,6 @@
     <value>Monotonie</value>
     <comment>Title for KeyGraphFeatures Monotonicity Property</comment>
   </data>
-  <data name="ObliqueAsymptotes" xml:space="preserve">
-    <value>Asimptote oblice</value>
-    <comment>Title for KeyGraphFeatures Oblique Asymptotes Property</comment>
-  </data>
   <data name="Parity" xml:space="preserve">
     <value>Paritate</value>
     <comment>Title for KeyGraphFeatures Parity Property</comment>
@@ -3482,10 +3255,6 @@
   <data name="Range" xml:space="preserve">
     <value>Interval</value>
     <comment>Title for KeyGraphFeatures Range Property</comment>
-  </data>
-  <data name="VerticalAsymptotes" xml:space="preserve">
-    <value>Asimptote verticale</value>
-    <comment>Title for KeyGraphFeatures Vertical Asymptotes Property</comment>
   </data>
   <data name="XIntercept" xml:space="preserve">
     <value>Intersecție cu axa X</value>
@@ -3818,10 +3587,6 @@
     <value>Opțiuni grafic</value>
     <comment>This is the automation name text for the graph options button in Graphing Calculator</comment>
   </data>
-  <data name="GraphOptionsHeading.Text" xml:space="preserve">
-    <value>Opțiuni grafic</value>
-    <comment>Heading for the Graph Options flyout in Graphing mode.</comment>
-  </data>
   <data name="VariableAreaSettings.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Opțiuni variabilă</value>
     <comment>Screen reader prompt for the variable settings toggle button</comment>
@@ -3829,30 +3594,6 @@
   <data name="VariableAreaSettings.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
     <value>Comutare opțiuni variabilă</value>
     <comment>Tool tip for the variable settings toggle button</comment>
-  </data>
-  <data name="LineThicknessBoxHeading.Text" xml:space="preserve">
-    <value>Grosime linie</value>
-    <comment>Heading for the Graph Options flyout in Graphing mode.</comment>
-  </data>
-  <data name="LineOptionsHeading.Text" xml:space="preserve">
-    <value>Opțiuni linie</value>
-    <comment>Heading for the equation style flyout in Graphing mode.</comment>
-  </data>
-  <data name="SmallLineWidthAutomationName" xml:space="preserve">
-    <value>Lățime mică linie</value>
-    <comment>Automation name for line width setting</comment>
-  </data>
-  <data name="MediumLineWidthAutomationName" xml:space="preserve">
-    <value>Lățime medie linie</value>
-    <comment>Automation name for line width setting</comment>
-  </data>
-  <data name="LargeLineWidthAutomationName" xml:space="preserve">
-    <value>Lățime mare linie</value>
-    <comment>Automation name for line width setting</comment>
-  </data>
-  <data name="ExtraLargeLineWidthAutomationName" xml:space="preserve">
-    <value>Lățime foarte mare linie</value>
-    <comment>Automation name for line width setting</comment>
   </data>
   <data name="mathRichEditBox.PlaceholderText" xml:space="preserve">
     <value>Introduceți o expresie</value>
@@ -3878,54 +3619,6 @@
     <value>Anulare</value>
     <comment>Undo menu item from the Equation TextBox</comment>
   </data>
-  <data name="selectAllEquationMenuItem.Text" xml:space="preserve">
-    <value>Selectați tot</value>
-    <comment>Select all menu item from the Equation TextBox</comment>
-  </data>
-  <data name="EquationInputButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Element din lista de intrări pentru funcții</value>
-    <comment>The automation name for the Equation Input ListView item that is shown when Calculator is in graphing mode.</comment>
-  </data>
-  <data name="EquationInputList.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Lista de intrare pentru funcții</value>
-    <comment>The automation name for the Equation Input ListView that is shown when Calculator is in graphing mode.</comment>
-  </data>
-  <data name="EquationInputPanel.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Panou de intrare pentru funcții</value>
-    <comment>The automation name for the Equation Input StackPanel that is shown when Calculator is in graphing mode.</comment>
-  </data>
-  <data name="VariableStackPanel.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Panou variabil</value>
-    <comment>The automation name for the Variable StackPanel that is shown when Calculator is in graphing mode.</comment>
-  </data>
-  <data name="VariableListView.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Listă variabilă</value>
-    <comment>The automation name for the Variable ListView that is shown when Calculator is in graphing mode.</comment>
-  </data>
-  <data name="VariableListViewItem" xml:space="preserve">
-    <value>Element de listă %1 variabil</value>
-    <comment>The automation name for the Variable ListViewItem that is shown when Calculator is in graphing mode.</comment>
-  </data>
-  <data name="VariableValueTextBox.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Casetă text pentru o valoare variabilă</value>
-    <comment>The automation name for the Variable Value Textbox that is shown when Calculator is in graphing mode.</comment>
-  </data>
-  <data name="VariableValueSlider.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Glisor cu valori variabile</value>
-    <comment>The automation name for the Variable Value Slider that is shown when Calculator is in graphing mode.</comment>
-  </data>
-  <data name="VariableMinTextBox.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Casetă text cu valori minime variabile</value>
-    <comment>The automation name for the Variable Min Value Textbox that is shown when Calculator is in graphing mode.</comment>
-  </data>
-  <data name="VariableStepTextBox.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Caseta text valoare pas variabil</value>
-    <comment>The automation name for the Variable Step Textbox that is shown when Calculator is in graphing mode.</comment>
-  </data>
-  <data name="VariableMaxTextBox.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Casetă text cu valori maxime variabile</value>
-    <comment>The automation name for the Variable Max Value Textbox that is shown when Calculator is in graphing mode.</comment>
-  </data>
   <data name="solidLineStyleAutomationName" xml:space="preserve">
     <value>Stil linie compactă</value>
     <comment>Name of the solid line style for a graphed equation</comment>
@@ -3937,10 +3630,6 @@
   <data name="dashLineStyleAutomationName" xml:space="preserve">
     <value>Stil linie întreruptă</value>
     <comment>Name of the dashed line style for a graphed equation</comment>
-  </data>
-  <data name="equationColor1AutomationName" xml:space="preserve">
-    <value>Bleumarin</value>
-    <comment>Name of color in the color picker</comment>
   </data>
   <data name="equationColor2AutomationName" xml:space="preserve">
     <value>Spumă de mare</value>
@@ -3954,14 +3643,6 @@
     <value>Verde</value>
     <comment>Name of color in the color picker</comment>
   </data>
-  <data name="equationColor5AutomationName" xml:space="preserve">
-    <value>Verde mentă</value>
-    <comment>Name of color in the color picker</comment>
-  </data>
-  <data name="equationColor6AutomationName" xml:space="preserve">
-    <value>Verde închis</value>
-    <comment>Name of color in the color picker</comment>
-  </data>
   <data name="equationColor7AutomationName" xml:space="preserve">
     <value>Cărbune</value>
     <comment>Name of color in the color picker</comment>
@@ -3970,20 +3651,8 @@
     <value>Roșu</value>
     <comment>Name of color in the color picker</comment>
   </data>
-  <data name="equationColor9AutomationName" xml:space="preserve">
-    <value>Violet prună</value>
-    <comment>Name of color in the color picker</comment>
-  </data>
   <data name="equationColor10AutomationName" xml:space="preserve">
     <value>Magenta</value>
-    <comment>Name of color in the color picker</comment>
-  </data>
-  <data name="equationColor11AutomationName" xml:space="preserve">
-    <value>Galben auriu</value>
-    <comment>Name of color in the color picker</comment>
-  </data>
-  <data name="equationColor12AutomationName" xml:space="preserve">
-    <value>Portocaliu aprins</value>
     <comment>Name of color in the color picker</comment>
   </data>
   <data name="equationColor13AutomationName" xml:space="preserve">
@@ -4014,10 +3683,6 @@
     <value>Culoare 4</value>
     <comment>Name of color in the color picker</comment>
   </data>
-  <data name="GraphThemeHeading.Text" xml:space="preserve">
-    <value>Temă Graph</value>
-    <comment>Graph settings heading for the theme options</comment>
-  </data>
   <data name="AlwaysLightTheme.Content" xml:space="preserve">
     <value>Întotdeauna deschis</value>
     <comment>Graph settings option to set graph to light theme</comment>
@@ -4041,10 +3706,6 @@
   <data name="FunctionRemovedAnnouncement" xml:space="preserve">
     <value>Funcție eliminată</value>
     <comment>Announcement used in Graphing Calculator when a function is removed from the function list</comment>
-  </data>
-  <data name="KGFEquationTextBox.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Caseta ecuație analiză funcție</value>
-    <comment>This is the automation name text for the equation box in the function analysis panel</comment>
   </data>
   <data name="graphingEqualButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Este egal cu</value>
@@ -4082,14 +3743,6 @@
     <value>Remitere</value>
     <comment>Screen reader prompt for the submit button on the graphing calculator operator keypad</comment>
   </data>
-  <data name="FunctionAnalysisGrid.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Analiza funcției</value>
-    <comment>Screen reader prompt for the function analysis grid</comment>
-  </data>
-  <data name="GraphSettingsGrid.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Opțiuni grafic</value>
-    <comment>Screen reader prompt for the graph options panel</comment>
-  </data>
   <data name="DockPanel_HistoryMemoryLists" xml:space="preserve">
     <value>Listele Istoric și Memorie</value>
     <comment>Automation name for the group of controls for history and memory lists.</comment>
@@ -4110,22 +3763,6 @@
     <value>Calculator înapoi la vizualizarea completă</value>
     <comment>Announcement to indicate calculator window is now back to full view.</comment>
   </data>
-  <data name="arithmeticShiftButtonSelected" xml:space="preserve">
-    <value>Deplasare aritmetică selectată</value>
-    <comment>Label for a radio button that toggles arithmetic shift behavior for the shift operations.</comment>
-  </data>
-  <data name="logicalShiftButtonSelected" xml:space="preserve">
-    <value>Deplasare logică selectată</value>
-    <comment>Label for a radio button that toggles logical shift behavior for the shift operations.</comment>
-  </data>
-  <data name="rotateCircularButtonSelected" xml:space="preserve">
-    <value>Deplasare circulară - rotire selectată</value>
-    <comment>Label for a radio button that toggles rotate circular behavior for the shift operations.</comment>
-  </data>
-  <data name="rotateCarryShiftButtonSelected" xml:space="preserve">
-    <value>Deplasare circulară - rotire prin bitul de transport selectată</value>
-    <comment>Label for a radio button that toggles rotate circular with carry behavior for the shift operations.</comment>
-  </data>
   <data name="SettingsHeader.Text" xml:space="preserve">
     <value>Setări</value>
     <comment>Header text of Settings page</comment>
@@ -4136,11 +3773,11 @@
   </data>
   <data name="SettingsAppThemeTitle.Text" xml:space="preserve">
     <value>Temă aplicație</value>
-    <comment>Title of App Theme expander</comment>
+    <comment>Title of App theme expander</comment>
   </data>
   <data name="SettingsAppThemeDescription.Text" xml:space="preserve">
     <value>Selectați ce temă de aplicație să afișați</value>
-    <comment>Description of App Theme expander</comment>
+    <comment>Description of App theme expander</comment>
   </data>
   <data name="LightThemeRadioButton.Content" xml:space="preserve">
     <value>Deschisă</value>
@@ -4157,13 +3794,5 @@
   <data name="TitleBarBackButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Înapoi</value>
     <comment>Screen reader prompt for the Back button in title bar to back to main page</comment>
-  </data>
-  <data name="SettingsPageOpenedAnnouncement" xml:space="preserve">
-    <value>Pagina de Setări</value>
-    <comment>Announcement used when Settings page is opened</comment>
-  </data>
-  <data name="AppThemeExpander.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Setarea temei de aplicație</value>
-    <comment>Screen reader prompt for the App theme Setting radio buttons group</comment>
   </data>
 </root>
